@@ -1,0 +1,3832 @@
+[
+    {
+        "Artikel": "",
+        "Word": "ich",
+        "Translation": "я"
+    },
+    {
+        "Artikel": "",
+        "Word": "wir",
+        "Translation": "мы"
+    },
+    {
+        "Artikel": "",
+        "Word": "du",
+        "Translation": "ты"
+    },
+    {
+        "Artikel": "",
+        "Word": "ihr",
+        "Translation": "вы[множественное число]"
+    },
+    {
+        "Artikel": "",
+        "Word": "er",
+        "Translation": "он"
+    },
+    {
+        "Artikel": "",
+        "Word": "sie",
+        "Translation": "они[множественное число]"
+    },
+    {
+        "Artikel": "",
+        "Word": "sie",
+        "Translation": "она"
+    },
+    {
+        "Artikel": "",
+        "Word": "Sie",
+        "Translation": "Вы[уважительное]"
+    },
+    {
+        "Artikel": "",
+        "Word": "es",
+        "Translation": "оно"
+    },
+    {
+        "Artikel": "",
+        "Word": "mir",
+        "Translation": "мне"
+    },
+    {
+        "Artikel": "",
+        "Word": "uns",
+        "Translation": "нам"
+    },
+    {
+        "Artikel": "",
+        "Word": "dir",
+        "Translation": "тебе"
+    },
+    {
+        "Artikel": "",
+        "Word": "euch",
+        "Translation": "вам[множественное число]"
+    },
+    {
+        "Artikel": "",
+        "Word": "ihm",
+        "Translation": "ему"
+    },
+    {
+        "Artikel": "",
+        "Word": "ihnen",
+        "Translation": "им[множественное число]"
+    },
+    {
+        "Artikel": "",
+        "Word": "ihr",
+        "Translation": "ей"
+    },
+    {
+        "Artikel": "",
+        "Word": "Ihnen",
+        "Translation": "Вам[уважительное]"
+    },
+    {
+        "Artikel": "",
+        "Word": "ihm",
+        "Translation": "ему[средний род]"
+    },
+    {
+        "Artikel": "",
+        "Word": "mich",
+        "Translation": "меня"
+    },
+    {
+        "Artikel": "",
+        "Word": "uns",
+        "Translation": "нам"
+    },
+    {
+        "Artikel": "",
+        "Word": "dich",
+        "Translation": "тебя"
+    },
+    {
+        "Artikel": "",
+        "Word": "euch",
+        "Translation": "вас[множественное число]"
+    },
+    {
+        "Artikel": "",
+        "Word": "ihn",
+        "Translation": "его[мужской род]"
+    },
+    {
+        "Artikel": "",
+        "Word": "sie",
+        "Translation": "их[множественное число]"
+    },
+    {
+        "Artikel": "",
+        "Word": "sie",
+        "Translation": "её"
+    },
+    {
+        "Artikel": "",
+        "Word": "Sie",
+        "Translation": "Вас[уважительное]"
+    },
+    {
+        "Artikel": "",
+        "Word": "es",
+        "Translation": "его[средний род]"
+    },
+    {
+        "Artikel": "",
+        "Word": "Hallo!",
+        "Translation": "Привет![повседневное приветствие]"
+    },
+    {
+        "Artikel": "",
+        "Word": "Vorsicht!",
+        "Translation": "Осторожно!"
+    },
+    {
+        "Artikel": "",
+        "Word": "Willkommen!",
+        "Translation": "Добро пожаловать!"
+    },
+    {
+        "Artikel": "",
+        "Word": "Gerne!",
+        "Translation": "Охотно! С удовольствием!"
+    },
+    {
+        "Artikel": "",
+        "Word": "Bitte!",
+        "Translation": "Пожалуйста!"
+    },
+    {
+        "Artikel": "",
+        "Word": "Tschüss!",
+        "Translation": "Пока![неформальное прощание]"
+    },
+    {
+        "Artikel": "",
+        "Word": "Danke!",
+        "Translation": "Спасибо!"
+    },
+    {
+        "Artikel": "",
+        "Word": "Auf Wiederhören!",
+        "Translation": "Услышимся!"
+    },
+    {
+        "Artikel": "",
+        "Word": "Achtung!",
+        "Translation": "Внимание!"
+    },
+    {
+        "Artikel": "",
+        "Word": "Auf Wiedersehen!",
+        "Translation": "До встречи!"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Zeit, -en",
+        "Translation": "время"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Sekunde, -n",
+        "Translation": "секунда"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Datum, die Daten",
+        "Translation": "дата, число"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Moment, -e",
+        "Translation": "момент"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Jahr, -e",
+        "Translation": "год"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Morgen, —",
+        "Translation": "утро"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Monat, -e",
+        "Translation": "месяц"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Vormittag, -e",
+        "Translation": "первая половина дня"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Woche, -n",
+        "Translation": "неделя"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Mittag, -e",
+        "Translation": "полдень"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Tag, -e",
+        "Translation": "день"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Nachmittag, -e",
+        "Translation": "вторая половина дня"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Stunde, -n",
+        "Translation": "час, урок"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Abend, -e",
+        "Translation": "вечер"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Minute, -n",
+        "Translation": "минута"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Nacht, -¨e",
+        "Translation": "ночь"
+    },
+    {
+        "Artikel": "",
+        "Word": "anfangen",
+        "Translation": "начинать, начинаться"
+    },
+    {
+        "Artikel": "",
+        "Word": "sofort",
+        "Translation": "сейчас же"
+    },
+    {
+        "Artikel": "",
+        "Word": "dauern",
+        "Translation": "длиться"
+    },
+    {
+        "Artikel": "",
+        "Word": "heute",
+        "Translation": "сегодня"
+    },
+    {
+        "Artikel": "",
+        "Word": "enden",
+        "Translation": "заканчивать, оканчиваться"
+    },
+    {
+        "Artikel": "",
+        "Word": "gerade",
+        "Translation": "прямо сейчас, только что"
+    },
+    {
+        "Artikel": "",
+        "Word": "nie",
+        "Translation": "никогда"
+    },
+    {
+        "Artikel": "",
+        "Word": "zurzeit",
+        "Translation": "в этот момент, прямо сейчас"
+    },
+    {
+        "Artikel": "",
+        "Word": "einmal",
+        "Translation": "один раз, однажды"
+    },
+    {
+        "Artikel": "",
+        "Word": "jetzt",
+        "Translation": "теперь, сейчас"
+    },
+    {
+        "Artikel": "",
+        "Word": "oft",
+        "Translation": "часто"
+    },
+    {
+        "Artikel": "",
+        "Word": "schon",
+        "Translation": "уже"
+    },
+    {
+        "Artikel": "",
+        "Word": "immer",
+        "Translation": "всегда"
+    },
+    {
+        "Artikel": "",
+        "Word": "seit",
+        "Translation": "с[даты, времени]"
+    },
+    {
+        "Artikel": "",
+        "Word": "früher",
+        "Translation": "раньше"
+    },
+    {
+        "Artikel": "",
+        "Word": "spät",
+        "Translation": "поздно"
+    },
+    {
+        "Artikel": "",
+        "Word": "gestern",
+        "Translation": "вчера"
+    },
+    {
+        "Artikel": "",
+        "Word": "morgen",
+        "Translation": "завтра"
+    },
+    {
+        "Artikel": "",
+        "Word": "bald",
+        "Translation": "скоро"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Wochentag, -e",
+        "Translation": "день недели"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Freitag, -e",
+        "Translation": "пятница"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Montag, -e",
+        "Translation": "понедельник"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Wochenende, -n",
+        "Translation": "выходные"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Dienstag, -e",
+        "Translation": "вторник"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Samstag, -e",
+        "Translation": "суббота"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Mittwoch, -e",
+        "Translation": "среда"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Sonntag, -e",
+        "Translation": "воскресенье"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Donnerstag, -e",
+        "Translation": "четверг"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Frühling, -e",
+        "Translation": "весна"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Mai, -e",
+        "Translation": "май"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Sommer, —",
+        "Translation": "лето"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Juni, -s",
+        "Translation": "июнь"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Herbst, -e",
+        "Translation": "осень"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Juli, -s",
+        "Translation": "июль"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Winter, —",
+        "Translation": "зима"
+    },
+    {
+        "Artikel": "der",
+        "Word": "August, -e",
+        "Translation": "август"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Januar, -e",
+        "Translation": "январь"
+    },
+    {
+        "Artikel": "der",
+        "Word": "September, —",
+        "Translation": "сентябрь"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Februar, -e",
+        "Translation": "февраль"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Oktober, —",
+        "Translation": "октябрь"
+    },
+    {
+        "Artikel": "der",
+        "Word": "März, -e",
+        "Translation": "март"
+    },
+    {
+        "Artikel": "der",
+        "Word": "November, —",
+        "Translation": "ноябрь"
+    },
+    {
+        "Artikel": "der",
+        "Word": "April, -e",
+        "Translation": "апрель"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Dezember, —",
+        "Translation": "декабрь"
+    },
+    {
+        "Artikel": "",
+        "Word": "eins",
+        "Translation": "один"
+    },
+    {
+        "Artikel": "",
+        "Word": "siebzehn",
+        "Translation": "семнадцать"
+    },
+    {
+        "Artikel": "",
+        "Word": "zwei",
+        "Translation": "два"
+    },
+    {
+        "Artikel": "",
+        "Word": "achtzehn",
+        "Translation": "восемнадцать"
+    },
+    {
+        "Artikel": "",
+        "Word": "drei",
+        "Translation": "три"
+    },
+    {
+        "Artikel": "",
+        "Word": "neunzehn",
+        "Translation": "девятнадцать"
+    },
+    {
+        "Artikel": "",
+        "Word": "vier",
+        "Translation": "четыре"
+    },
+    {
+        "Artikel": "",
+        "Word": "zwanzig",
+        "Translation": "двадцать"
+    },
+    {
+        "Artikel": "",
+        "Word": "fünf",
+        "Translation": "пять"
+    },
+    {
+        "Artikel": "",
+        "Word": "dreißig",
+        "Translation": "тридцать"
+    },
+    {
+        "Artikel": "",
+        "Word": "sechs",
+        "Translation": "шесть"
+    },
+    {
+        "Artikel": "",
+        "Word": "vierzig",
+        "Translation": "сорок"
+    },
+    {
+        "Artikel": "",
+        "Word": "sieben",
+        "Translation": "семь"
+    },
+    {
+        "Artikel": "",
+        "Word": "fünfzig",
+        "Translation": "пятьдесят"
+    },
+    {
+        "Artikel": "",
+        "Word": "acht",
+        "Translation": "восемь"
+    },
+    {
+        "Artikel": "",
+        "Word": "sechzig",
+        "Translation": "шестьдесят"
+    },
+    {
+        "Artikel": "",
+        "Word": "neun",
+        "Translation": "девять"
+    },
+    {
+        "Artikel": "",
+        "Word": "siebzig",
+        "Translation": "семьдесят"
+    },
+    {
+        "Artikel": "",
+        "Word": "zehn",
+        "Translation": "десять"
+    },
+    {
+        "Artikel": "",
+        "Word": "achtzig",
+        "Translation": "восемьдесят"
+    },
+    {
+        "Artikel": "",
+        "Word": "elf",
+        "Translation": "одиннадцать"
+    },
+    {
+        "Artikel": "",
+        "Word": "neunzig",
+        "Translation": "девяносто"
+    },
+    {
+        "Artikel": "",
+        "Word": "zwölf",
+        "Translation": "двенадцать"
+    },
+    {
+        "Artikel": "",
+        "Word": "hundert",
+        "Translation": "сто"
+    },
+    {
+        "Artikel": "",
+        "Word": "dreizehn",
+        "Translation": "тринадцать"
+    },
+    {
+        "Artikel": "",
+        "Word": "tausend",
+        "Translation": "тысяча"
+    },
+    {
+        "Artikel": "",
+        "Word": "vierzehn",
+        "Translation": "четырнадцать"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Million, -en",
+        "Translation": "миллион"
+    },
+    {
+        "Artikel": "",
+        "Word": "fünfzehn",
+        "Translation": "пятнадцать"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Milliarde, -n",
+        "Translation": "миллиард"
+    },
+    {
+        "Artikel": "",
+        "Word": "sechzehn",
+        "Translation": "шестнадцать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Meter, —",
+        "Translation": "метр"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Liter, —",
+        "Translation": "литр"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Zentimeter, —",
+        "Translation": "сантиметр"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Gramm, -e",
+        "Translation": "грамм"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Quadratmeter, —",
+        "Translation": "квадратный метр"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Kilogramm, -e",
+        "Translation": "килограмм"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Prozent, -e",
+        "Translation": "процент"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Pfund, -e",
+        "Translation": "фунт"
+    },
+    {
+        "Artikel": "",
+        "Word": "circa",
+        "Translation": "примерно, приблизительно"
+    },
+    {
+        "Artikel": "",
+        "Word": "mehr",
+        "Translation": "больше"
+    },
+    {
+        "Artikel": "",
+        "Word": "bisschen",
+        "Translation": "немного"
+    },
+    {
+        "Artikel": "",
+        "Word": "viel",
+        "Translation": "много"
+    },
+    {
+        "Artikel": "",
+        "Word": "wenig",
+        "Translation": "мало"
+    },
+    {
+        "Artikel": "",
+        "Word": "schwarz",
+        "Translation": "чёрный"
+    },
+    {
+        "Artikel": "",
+        "Word": "grün",
+        "Translation": "зелёный"
+    },
+    {
+        "Artikel": "",
+        "Word": "weiß",
+        "Translation": "белый"
+    },
+    {
+        "Artikel": "",
+        "Word": "rot",
+        "Translation": "красный"
+    },
+    {
+        "Artikel": "",
+        "Word": "grau",
+        "Translation": "серый"
+    },
+    {
+        "Artikel": "",
+        "Word": "gelb",
+        "Translation": "жёлтый"
+    },
+    {
+        "Artikel": "",
+        "Word": "blau",
+        "Translation": "синий"
+    },
+    {
+        "Artikel": "",
+        "Word": "braun",
+        "Translation": "коричневый"
+    },
+    {
+        "Artikel": "",
+        "Word": "wer",
+        "Translation": "кто?"
+    },
+    {
+        "Artikel": "",
+        "Word": "warum",
+        "Translation": "почему?"
+    },
+    {
+        "Artikel": "",
+        "Word": "was",
+        "Translation": "что?"
+    },
+    {
+        "Artikel": "",
+        "Word": "woher",
+        "Translation": "откуда?"
+    },
+    {
+        "Artikel": "",
+        "Word": "wo",
+        "Translation": "где?"
+    },
+    {
+        "Artikel": "",
+        "Word": "wohin",
+        "Translation": "куда?"
+    },
+    {
+        "Artikel": "",
+        "Word": "wie",
+        "Translation": "как?"
+    },
+    {
+        "Artikel": "",
+        "Word": "wie viel",
+        "Translation": "как много?"
+    },
+    {
+        "Artikel": "",
+        "Word": "wann",
+        "Translation": "когда?"
+    },
+    {
+        "Artikel": "",
+        "Word": "was für ein/eine/einen",
+        "Translation": "что за? какой?"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Welt, -en",
+        "Translation": "мир"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Teil, -e",
+        "Translation": "часть"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Land, -¨er",
+        "Translation": "страна"
+    },
+    {
+        "Artikel": "",
+        "Word": "geradeaus",
+        "Translation": "прямо[идти, ехать]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Stadt, -¨e",
+        "Translation": "город"
+    },
+    {
+        "Artikel": "",
+        "Word": "zurück",
+        "Translation": "назад, обратно"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Dorf, -¨er",
+        "Translation": "деревня"
+    },
+    {
+        "Artikel": "",
+        "Word": "nach links",
+        "Translation": "налево"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Straße, -n",
+        "Translation": "улица"
+    },
+    {
+        "Artikel": "",
+        "Word": "nach rechts",
+        "Translation": "направо"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Platz, -¨e",
+        "Translation": "место, площадь"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Norden",
+        "Translation": "север"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Ort, -e",
+        "Translation": "место, небольшой городок"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Süden",
+        "Translation": "юг"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Anfang, -¨e",
+        "Translation": "начало"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Westen",
+        "Translation": "запад"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Mitte, -n",
+        "Translation": "середина"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Osten",
+        "Translation": "восток"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Ende, -n",
+        "Translation": "конец"
+    },
+    {
+        "Artikel": "",
+        "Word": "hier",
+        "Translation": "здесь, тут"
+    },
+    {
+        "Artikel": "",
+        "Word": "rechts",
+        "Translation": "справа"
+    },
+    {
+        "Artikel": "",
+        "Word": "da",
+        "Translation": "там, тут"
+    },
+    {
+        "Artikel": "",
+        "Word": "oben",
+        "Translation": "наверху"
+    },
+    {
+        "Artikel": "",
+        "Word": "dort",
+        "Translation": "там"
+    },
+    {
+        "Artikel": "",
+        "Word": "unten",
+        "Translation": "внизу"
+    },
+    {
+        "Artikel": "",
+        "Word": "daneben",
+        "Translation": "рядом"
+    },
+    {
+        "Artikel": "",
+        "Word": "unter",
+        "Translation": "под"
+    },
+    {
+        "Artikel": "",
+        "Word": "draußen",
+        "Translation": "снаружи, на улице"
+    },
+    {
+        "Artikel": "",
+        "Word": "hinten",
+        "Translation": "сзади"
+    },
+    {
+        "Artikel": "",
+        "Word": "links",
+        "Translation": "слева"
+    },
+    {
+        "Artikel": "",
+        "Word": "hinter",
+        "Translation": "находиться позади[чего-либо]"
+    },
+    {
+        "Artikel": "",
+        "Word": "weg sein",
+        "Translation": "быть не здесь, отсутствовать, уйти"
+    },
+    {
+        "Artikel": "",
+        "Word": "auf sein",
+        "Translation": "быть открытым[об окне, двери, магазине]"
+    },
+    {
+        "Artikel": "",
+        "Word": "zu sein",
+        "Translation": "быть закрытым"
+    },
+    {
+        "Artikel": "",
+        "Word": "aus sein",
+        "Translation": "быть выключенным, не работать [о технике]"
+    },
+    {
+        "Artikel": "",
+        "Word": "an sein",
+        "Translation": "быть включённым, работать[о технике]"
+    },
+    {
+        "Artikel": "",
+        "Word": "haben",
+        "Translation": "иметь"
+    },
+    {
+        "Artikel": "",
+        "Word": "müssen",
+        "Translation": "быть должным, обязанным"
+    },
+    {
+        "Artikel": "",
+        "Word": "sein",
+        "Translation": "быть"
+    },
+    {
+        "Artikel": "",
+        "Word": "sollen",
+        "Translation": "быть должным, иметь приказ"
+    },
+    {
+        "Artikel": "",
+        "Word": "werden",
+        "Translation": "становиться"
+    },
+    {
+        "Artikel": "",
+        "Word": "heißen",
+        "Translation": "зваться, называться"
+    },
+    {
+        "Artikel": "",
+        "Word": "können",
+        "Translation": "мочь, уметь"
+    },
+    {
+        "Artikel": "",
+        "Word": "brauchen",
+        "Translation": "нуждаться"
+    },
+    {
+        "Artikel": "",
+        "Word": "wollen",
+        "Translation": "хотеть"
+    },
+    {
+        "Artikel": "",
+        "Word": "bekommen",
+        "Translation": "получать"
+    },
+    {
+        "Artikel": "",
+        "Word": "möchten",
+        "Translation": "хотеть[вежливая форма]"
+    },
+    {
+        "Artikel": "",
+        "Word": "kriegen",
+        "Translation": "воевать, получать [разг.]"
+    },
+    {
+        "Artikel": "",
+        "Word": "dürfen",
+        "Translation": "мочь, иметь право, разрешение"
+    },
+    {
+        "Artikel": "",
+        "Word": "gehören",
+        "Translation": "принадлежать"
+    },
+    {
+        "Artikel": "",
+        "Word": "schlafen",
+        "Translation": "спать"
+    },
+    {
+        "Artikel": "",
+        "Word": "laufen",
+        "Translation": "бежать"
+    },
+    {
+        "Artikel": "",
+        "Word": "stehen",
+        "Translation": "стоять"
+    },
+    {
+        "Artikel": "",
+        "Word": "fahren",
+        "Translation": "ехать"
+    },
+    {
+        "Artikel": "",
+        "Word": "aufstehen",
+        "Translation": "вставать"
+    },
+    {
+        "Artikel": "",
+        "Word": "fliegen",
+        "Translation": "летать"
+    },
+    {
+        "Artikel": "",
+        "Word": "liegen",
+        "Translation": "лежать"
+    },
+    {
+        "Artikel": "",
+        "Word": "kommen",
+        "Translation": "приходить"
+    },
+    {
+        "Artikel": "",
+        "Word": "sitzen",
+        "Translation": "сидеть"
+    },
+    {
+        "Artikel": "",
+        "Word": "tanzen",
+        "Translation": "танцевать"
+    },
+    {
+        "Artikel": "",
+        "Word": "gehen",
+        "Translation": "идти"
+    },
+    {
+        "Artikel": "",
+        "Word": "spielen",
+        "Translation": "играть"
+    },
+    {
+        "Artikel": "",
+        "Word": "alt",
+        "Translation": "старый"
+    },
+    {
+        "Artikel": "",
+        "Word": "klein",
+        "Translation": "маленький, низкий [о людях]"
+    },
+    {
+        "Artikel": "",
+        "Word": "neu",
+        "Translation": "новый, новенький"
+    },
+    {
+        "Artikel": "",
+        "Word": "groß",
+        "Translation": "большой, высокий [о людях]"
+    },
+    {
+        "Artikel": "",
+        "Word": "jung",
+        "Translation": "молодой"
+    },
+    {
+        "Artikel": "",
+        "Word": "schön",
+        "Translation": "красивый"
+    },
+    {
+        "Artikel": "",
+        "Word": "gut",
+        "Translation": "хороший"
+    },
+    {
+        "Artikel": "",
+        "Word": "kurz",
+        "Translation": "короткий"
+    },
+    {
+        "Artikel": "",
+        "Word": "schlecht",
+        "Translation": "плохой"
+    },
+    {
+        "Artikel": "",
+        "Word": "lang",
+        "Translation": "длинный"
+    },
+    {
+        "Artikel": "",
+        "Word": "normal",
+        "Translation": "нормальный"
+    },
+    {
+        "Artikel": "",
+        "Word": "hoch",
+        "Translation": "высокий[о неодушевлённых предметах]"
+    },
+    {
+        "Artikel": "",
+        "Word": "aber",
+        "Translation": "но"
+    },
+    {
+        "Artikel": "",
+        "Word": "vor",
+        "Translation": "перед"
+    },
+    {
+        "Artikel": "",
+        "Word": "oder",
+        "Translation": "или"
+    },
+    {
+        "Artikel": "",
+        "Word": "zwischen",
+        "Translation": "между"
+    },
+    {
+        "Artikel": "",
+        "Word": "und",
+        "Translation": "и, а"
+    },
+    {
+        "Artikel": "",
+        "Word": "über",
+        "Translation": "о, над"
+    },
+    {
+        "Artikel": "",
+        "Word": "ab",
+        "Translation": "от, начиная с"
+    },
+    {
+        "Artikel": "",
+        "Word": "um",
+        "Translation": "вокруг"
+    },
+    {
+        "Artikel": "",
+        "Word": "an",
+        "Translation": "у"
+    },
+    {
+        "Artikel": "",
+        "Word": "ohne",
+        "Translation": "без"
+    },
+    {
+        "Artikel": "",
+        "Word": "aus",
+        "Translation": "из"
+    },
+    {
+        "Artikel": "",
+        "Word": "durch",
+        "Translation": "через, сквозь"
+    },
+    {
+        "Artikel": "",
+        "Word": "in",
+        "Translation": "в"
+    },
+    {
+        "Artikel": "",
+        "Word": "nach",
+        "Translation": "после"
+    },
+    {
+        "Artikel": "",
+        "Word": "auf",
+        "Translation": "на"
+    },
+    {
+        "Artikel": "",
+        "Word": "zu",
+        "Translation": "к"
+    },
+    {
+        "Artikel": "",
+        "Word": "von",
+        "Translation": "от"
+    },
+    {
+        "Artikel": "",
+        "Word": "auch",
+        "Translation": "также, тоже"
+    },
+    {
+        "Artikel": "",
+        "Word": "bis",
+        "Translation": "до"
+    },
+    {
+        "Artikel": "",
+        "Word": "dann",
+        "Translation": "тогда"
+    },
+    {
+        "Artikel": "",
+        "Word": "für",
+        "Translation": "за, для"
+    },
+    {
+        "Artikel": "",
+        "Word": "denn",
+        "Translation": "потому что"
+    },
+    {
+        "Artikel": "",
+        "Word": "gegen",
+        "Translation": "против"
+    },
+    {
+        "Artikel": "",
+        "Word": "noch",
+        "Translation": "ещё"
+    },
+    {
+        "Artikel": "",
+        "Word": "bei",
+        "Translation": "при, у"
+    },
+    {
+        "Artikel": "",
+        "Word": "sehr",
+        "Translation": "очень"
+    },
+    {
+        "Artikel": "",
+        "Word": "vielleicht",
+        "Translation": "может быть"
+    },
+    {
+        "Artikel": "",
+        "Word": "also",
+        "Translation": "итак"
+    },
+    {
+        "Artikel": "",
+        "Word": "möglich",
+        "Translation": "возможно, реально, осуществимо"
+    },
+    {
+        "Artikel": "",
+        "Word": "so",
+        "Translation": "так"
+    },
+    {
+        "Artikel": "",
+        "Word": "nur",
+        "Translation": "только"
+    },
+    {
+        "Artikel": "",
+        "Word": "lieber",
+        "Translation": "лучше, охотнее"
+    },
+    {
+        "Artikel": "",
+        "Word": "wunderbar",
+        "Translation": "чудесный, чудный"
+    },
+    {
+        "Artikel": "",
+        "Word": "besser",
+        "Translation": "лучше"
+    },
+    {
+        "Artikel": "",
+        "Word": "nicht",
+        "Translation": "не[частица отрицания]"
+    },
+    {
+        "Artikel": "",
+        "Word": "weiter",
+        "Translation": "дальше, продолжай"
+    },
+    {
+        "Artikel": "",
+        "Word": "nichts",
+        "Translation": "ничего, ничто"
+    },
+    {
+        "Artikel": "",
+        "Word": "leider",
+        "Translation": "к сожалению"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Wetter, —",
+        "Translation": "погода"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Regen, —",
+        "Translation": "дождь"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Grad, -e",
+        "Translation": "градус[температура, наклон]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "See, -n",
+        "Translation": "озеро"
+    },
+    {
+        "Artikel": "",
+        "Word": "klar",
+        "Translation": "ясно[о погоде или «понятно»]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Meer, -e",
+        "Translation": "море"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Sonne, -n",
+        "Translation": "солнце"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Feuer, —",
+        "Translation": "огонь"
+    },
+    {
+        "Artikel": "",
+        "Word": "scheinen",
+        "Translation": "светить[о Солнце]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Baum, -¨e",
+        "Translation": "дерево"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Wind, -e",
+        "Translation": "ветер"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Blume, -n",
+        "Translation": "цветок"
+    },
+    {
+        "Artikel": "",
+        "Word": "regnen",
+        "Translation": "идёт дождь"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Kind, -er",
+        "Translation": "ребёнок"
+    },
+    {
+        "Artikel": "",
+        "Word": "männlich",
+        "Translation": "мужественный, мужской"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Junge, -n",
+        "Translation": "мальчик"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Frau, -en",
+        "Translation": "женщина, госпожа[вежливое обращение]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Mädchen, —",
+        "Translation": "девочка"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Dame, -n",
+        "Translation": "дама"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Jugendliche, -n",
+        "Translation": "молодой человек, девушка[не зависит от пола]"
+    },
+    {
+        "Artikel": "",
+        "Word": "weiblich",
+        "Translation": "женственный, женский"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Erwachsene, -n",
+        "Translation": "взрослый"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Mensch, -en",
+        "Translation": "человек"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Herr, -en",
+        "Translation": "мужчина, господин[вежливое обращение]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Leute",
+        "Translation": "люди"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Mann, -¨er",
+        "Translation": "мужчина"
+    },
+    {
+        "Artikel": "",
+        "Word": "international",
+        "Translation": "интернациональный"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Gruß, -¨e",
+        "Translation": "приветствие"
+    },
+    {
+        "Artikel": "",
+        "Word": "bitten",
+        "Translation": "просить"
+    },
+    {
+        "Artikel": "",
+        "Word": "",
+        "Translation": "представлять-ся"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Bitte, -n",
+        "Translation": "просьба"
+    },
+    {
+        "Artikel": "",
+        "Word": "sagen",
+        "Translation": "сказать, говорить"
+    },
+    {
+        "Artikel": "",
+        "Word": "danken",
+        "Translation": "благодарить"
+    },
+    {
+        "Artikel": "",
+        "Word": "sprechen",
+        "Translation": "говорить, беседовать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Dank",
+        "Translation": "благодарность"
+    },
+    {
+        "Artikel": "",
+        "Word": "fragen",
+        "Translation": "спрашивать"
+    },
+    {
+        "Artikel": "",
+        "Word": "",
+        "Translation": "извинять-ся"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Frage, -n",
+        "Translation": "вопрос"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Entschuldigung, -en",
+        "Translation": "извинение"
+    },
+    {
+        "Artikel": "",
+        "Word": "antworten",
+        "Translation": "отвечать"
+    },
+    {
+        "Artikel": "",
+        "Word": "helfen",
+        "Translation": "помогать"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Antwort, -en",
+        "Translation": "ответ"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Hilfe, -n",
+        "Translation": "помощь"
+    },
+    {
+        "Artikel": "",
+        "Word": "erzählen",
+        "Translation": "рассказывать"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Telefon, -e",
+        "Translation": "телефон"
+    },
+    {
+        "Artikel": "",
+        "Word": "telefonieren",
+        "Translation": "говорить по телефону"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Handy, -s",
+        "Translation": "мобильный телефон"
+    },
+    {
+        "Artikel": "",
+        "Word": "wiederholen",
+        "Translation": "повторять"
+    },
+    {
+        "Artikel": "",
+        "Word": "anrufen",
+        "Translation": "звонить кому-либо по телефону"
+    },
+    {
+        "Artikel": "",
+        "Word": "verstehen",
+        "Translation": "понимать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Anruf, -e",
+        "Translation": "телефонный звонок"
+    },
+    {
+        "Artikel": "",
+        "Word": "buchstabieren",
+        "Translation": "диктовать по буквам"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Anrufbeantworter, —",
+        "Translation": "автоответчик"
+    },
+    {
+        "Artikel": "",
+        "Word": "hören",
+        "Translation": "слышать"
+    },
+    {
+        "Artikel": "",
+        "Word": "glauben",
+        "Translation": "верить, считать[иметь мнение]"
+    },
+    {
+        "Artikel": "",
+        "Word": "sehen",
+        "Translation": "смотреть, видеть"
+    },
+    {
+        "Artikel": "",
+        "Word": "lustig",
+        "Translation": "весёлый"
+    },
+    {
+        "Artikel": "",
+        "Word": "schmecken",
+        "Translation": "чувствовать вкус, быть на вкус"
+    },
+    {
+        "Artikel": "",
+        "Word": "zufrieden",
+        "Translation": "довольный"
+    },
+    {
+        "Artikel": "",
+        "Word": "riechen",
+        "Translation": "чувствовать запах, пахнуть"
+    },
+    {
+        "Artikel": "",
+        "Word": "ruhig",
+        "Translation": "спокойный"
+    },
+    {
+        "Artikel": "",
+        "Word": "",
+        "Translation": "радовать-ся"
+    },
+    {
+        "Artikel": "",
+        "Word": "böse",
+        "Translation": "злой"
+    },
+    {
+        "Artikel": "",
+        "Word": "lachen",
+        "Translation": "смеяться"
+    },
+    {
+        "Artikel": "",
+        "Word": "müde",
+        "Translation": "усталый"
+    },
+    {
+        "Artikel": "",
+        "Word": "gefallen",
+        "Translation": "нравиться"
+    },
+    {
+        "Artikel": "",
+        "Word": "glücklich",
+        "Translation": "счастливый"
+    },
+    {
+        "Artikel": "",
+        "Word": "mögen",
+        "Translation": "испытывать симпатию, любить[неодушевлённые вещи]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Glück",
+        "Translation": "счастье"
+    },
+    {
+        "Artikel": "",
+        "Word": "lieben",
+        "Translation": "любить"
+    },
+    {
+        "Artikel": "",
+        "Word": "heiraten",
+        "Translation": "жениться, выходить замуж"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Tochter, -¨",
+        "Translation": "дочь"
+    },
+    {
+        "Artikel": "",
+        "Word": "sich kümmern",
+        "Translation": "заботиться, позаботиться"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Bruder, -¨",
+        "Translation": "брат"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Familie, -n",
+        "Translation": "семья"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Schwester, -n",
+        "Translation": "сестра"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Ehefrau, -en",
+        "Translation": "жена"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Verwandte, -en",
+        "Translation": "родственник"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Ehemann, -¨er",
+        "Translation": "Муж"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Geschwister",
+        "Translation": "братья и сёстры"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Partner, —",
+        "Translation": "Партнёр"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Großeltern",
+        "Translation": "бабушки и дедушки"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Mutter, -¨er",
+        "Translation": "мама"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Großmutter, -¨",
+        "Translation": "бабушка"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Vater, -¨er",
+        "Translation": "отец"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Großvater, -¨",
+        "Translation": "дедушка"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Eltern",
+        "Translation": "родители"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Oma, -s",
+        "Translation": "бабушка[разговорное]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Baby, -s",
+        "Translation": "младенец"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Opa, -s",
+        "Translation": "дедушка[разговорное]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Sohn, -¨e",
+        "Translation": "сын"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Hund, -e",
+        "Translation": "собака"
+    },
+    {
+        "Artikel": "",
+        "Word": "fremd",
+        "Translation": "чужой"
+    },
+    {
+        "Artikel": "",
+        "Word": "beide",
+        "Translation": "оба/обе"
+    },
+    {
+        "Artikel": "",
+        "Word": "kennen",
+        "Translation": "знать, быть знакомым"
+    },
+    {
+        "Artikel": "",
+        "Word": "",
+        "Translation": "встречать-ся"
+    },
+    {
+        "Artikel": "",
+        "Word": "kennenlernen",
+        "Translation": "знакомиться"
+    },
+    {
+        "Artikel": "",
+        "Word": "warten",
+        "Translation": "ждать"
+    },
+    {
+        "Artikel": "",
+        "Word": "bekannt",
+        "Translation": "известный"
+    },
+    {
+        "Artikel": "",
+        "Word": "besuchen",
+        "Translation": "посещать[обычно человека]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Bekannte, -n",
+        "Translation": "знакомый"
+    },
+    {
+        "Artikel": "",
+        "Word": "bleiben",
+        "Translation": "оставаться"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Freund, -e",
+        "Translation": "друг"
+    },
+    {
+        "Artikel": "",
+        "Word": "übernachten",
+        "Translation": "переночевать"
+    },
+    {
+        "Artikel": "",
+        "Word": "gleich",
+        "Translation": "одинаковый, похожий"
+    },
+    {
+        "Artikel": "",
+        "Word": "mitbringen",
+        "Translation": "приносить с собой"
+    },
+    {
+        "Artikel": "",
+        "Word": "allein",
+        "Translation": "один/одна, в одиночку"
+    },
+    {
+        "Artikel": "",
+        "Word": "mitkommen",
+        "Translation": "прийти вместе с кем-либо"
+    },
+    {
+        "Artikel": "",
+        "Word": "zusammen",
+        "Translation": "вместе"
+    },
+    {
+        "Artikel": "",
+        "Word": "mitmachen",
+        "Translation": "делать что-то вместе с кем-то"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Party, -s",
+        "Translation": "вечеринка"
+    },
+    {
+        "Artikel": "",
+        "Word": "mitnehmen",
+        "Translation": "взять с собой"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Disco, -s",
+        "Translation": "дискотека"
+    },
+    {
+        "Artikel": "",
+        "Word": "gratulieren",
+        "Translation": "поздравлять"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Hochzeit, -en",
+        "Translation": "свадьба"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Glückwunsch, -¨e",
+        "Translation": "пожелание счастья, пожелание к празднику"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Einladung, -en",
+        "Translation": "приглашение"
+    },
+    {
+        "Artikel": "",
+        "Word": "herzlich",
+        "Translation": "сердечно, от всего сердца"
+    },
+    {
+        "Artikel": "",
+        "Word": "einladen",
+        "Translation": "приглашать"
+    },
+    {
+        "Artikel": "",
+        "Word": "feiern",
+        "Translation": "праздновать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Gast, -¨e",
+        "Translation": "гость"
+    },
+    {
+        "Artikel": "",
+        "Word": "grillen",
+        "Translation": "жарить гриль"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Geschenk, -e",
+        "Translation": "подарок"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Hunger",
+        "Translation": "голод"
+    },
+    {
+        "Artikel": "",
+        "Word": "trinken",
+        "Translation": "пить"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Durst",
+        "Translation": "жажда"
+    },
+    {
+        "Artikel": "",
+        "Word": "bitter",
+        "Translation": "горький"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Appetit",
+        "Translation": "аппетит"
+    },
+    {
+        "Artikel": "",
+        "Word": "frühstücken",
+        "Translation": "завтракать"
+    },
+    {
+        "Artikel": "",
+        "Word": "kochen",
+        "Translation": "готовить, варить"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Frühstück, -e",
+        "Translation": "завтрак"
+    },
+    {
+        "Artikel": "",
+        "Word": "essen",
+        "Translation": "есть, кушать"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Glas, -¨er",
+        "Translation": "стакан, стекло"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Essen, —",
+        "Translation": "еда"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Flasche, -n",
+        "Translation": "бутылка"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Bäckerei, -en",
+        "Translation": "пекарня"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Restaurant, -s",
+        "Translation": "ресторан"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Café, -s",
+        "Translation": "кафе"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Speisekarte, -n",
+        "Translation": "меню[в кафе, ресторане]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Lokal, -e",
+        "Translation": "кафе, забегаловка"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Lebensmittel, —",
+        "Translation": "продукты питания"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Butter",
+        "Translation": "сливочное масло"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Fisch, -e",
+        "Translation": "рыба[как вид мяса только в единственном числе]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Ei, -er",
+        "Translation": "яйцо"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Fleisch",
+        "Translation": "мясо"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Brot, -e",
+        "Translation": "хлеб"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Hähnchen, —",
+        "Translation": "курица[сырая или готовая]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Brötchen, —",
+        "Translation": "булочка"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Schinken, —",
+        "Translation": "ветчина"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kuchen, —",
+        "Translation": "пирог"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Öl, -e",
+        "Translation": "масло[растительное, моторное]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Pommes frites",
+        "Translation": "картошка фри"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Salz, -e",
+        "Translation": "соль"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Reis, -e",
+        "Translation": "рис"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Obst",
+        "Translation": "фрукты"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Gemüse, —",
+        "Translation": "овощи"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Apfel, -¨",
+        "Translation": "яблоко"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Kartoffel, -n",
+        "Translation": "картофель"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Banane, -n",
+        "Translation": "банан"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Salat, -e",
+        "Translation": "салат"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Birne, -n",
+        "Translation": "груша"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Tomate, -n",
+        "Translation": "помидор"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Getränk, -e",
+        "Translation": "напиток"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Saft, -¨e",
+        "Translation": "сок"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Tee, -s",
+        "Translation": "чай"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Wasser, -¨",
+        "Translation": "вода"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kaffee, -s",
+        "Translation": "кофе"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Bier, -e",
+        "Translation": "пиво"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Milch, -en",
+        "Translation": "молоко"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Wein, -e",
+        "Translation": "вино"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Anzeige, -n",
+        "Translation": "объявление [на бумаге], заявление [в полицию]"
+    },
+    {
+        "Artikel": "",
+        "Word": "mieten",
+        "Translation": "снимать жильё"
+    },
+    {
+        "Artikel": "",
+        "Word": "wohnen",
+        "Translation": "жить"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Miete, -n",
+        "Translation": "арендная плата"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Wohnung, -en",
+        "Translation": "квартира"
+    },
+    {
+        "Artikel": "",
+        "Word": "vermieten",
+        "Translation": "сдавать"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Apartment, -s",
+        "Translation": "апартаменты"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Vermieter, —",
+        "Translation": "арендодатель"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Haus, die Häuser",
+        "Translation": "дом"
+    },
+    {
+        "Artikel": "",
+        "Word": "umziehen",
+        "Translation": "переезжать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Eingang, -¨e",
+        "Translation": "вход"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Dusche, -n",
+        "Translation": "душ"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Ausgang, -¨e",
+        "Translation": "выход"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Balkon, -e",
+        "Translation": "балкон"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Halle, -n",
+        "Translation": "зал"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Küche, -n",
+        "Translation": "кухня"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Stock, -¨e",
+        "Translation": "этаж"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Toilette, -n",
+        "Translation": "туалет"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Aufzug, -¨e",
+        "Translation": "лифт"
+    },
+    {
+        "Artikel": "",
+        "Word": "hell",
+        "Translation": "светлый, светло"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Treppe, -n",
+        "Translation": "лестница"
+    },
+    {
+        "Artikel": "",
+        "Word": "breit",
+        "Translation": "широкий, широко"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Ecke, -n",
+        "Translation": "угол"
+    },
+    {
+        "Artikel": "",
+        "Word": "kaputt",
+        "Translation": "сломанный"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Raum, -¨e",
+        "Translation": "комната, помещение"
+    },
+    {
+        "Artikel": "",
+        "Word": "reparieren",
+        "Translation": "чинить"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Zimmer, —",
+        "Translation": "комната[в квартире, отеле]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Reparatur, -en",
+        "Translation": "починка, ремонт"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Farbe, -n",
+        "Translation": "краска, цвет"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Anschluss, -¨e",
+        "Translation": "подключение"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Bad, -¨er",
+        "Translation": "ванна"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Möbel",
+        "Translation": "мебель"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Schlüssel, —",
+        "Translation": "ключ"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Bett, -en",
+        "Translation": "кровать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Schrank, -¨e",
+        "Translation": "шкаф"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Sofa, -s",
+        "Translation": "диван"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kühlschrank, -¨e",
+        "Translation": "холодильник"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Tisch, -e",
+        "Translation": "стол"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Herd, -e",
+        "Translation": "кухонная плита"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Bild, -er",
+        "Translation": "картина"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Licht, -er",
+        "Translation": "свет"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Uhr, -en",
+        "Translation": "часы"
+    },
+    {
+        "Artikel": "",
+        "Word": "machen",
+        "Translation": "делать"
+    },
+    {
+        "Artikel": "",
+        "Word": "öffnen",
+        "Translation": "открывать"
+    },
+    {
+        "Artikel": "",
+        "Word": "ausmachen",
+        "Translation": "выключать"
+    },
+    {
+        "Artikel": "",
+        "Word": "schließen",
+        "Translation": "закрывать"
+    },
+    {
+        "Artikel": "",
+        "Word": "anmachen",
+        "Translation": "включать"
+    },
+    {
+        "Artikel": "",
+        "Word": "bringen",
+        "Translation": "приносить, перемещать"
+    },
+    {
+        "Artikel": "",
+        "Word": "tun",
+        "Translation": "поступать, делать"
+    },
+    {
+        "Artikel": "",
+        "Word": "holen",
+        "Translation": "приносить, доставать"
+    },
+    {
+        "Artikel": "",
+        "Word": "suchen",
+        "Translation": "искать"
+    },
+    {
+        "Artikel": "",
+        "Word": "geben",
+        "Translation": "давать"
+    },
+    {
+        "Artikel": "",
+        "Word": "finden",
+        "Translation": "находить"
+    },
+    {
+        "Artikel": "",
+        "Word": "stellen",
+        "Translation": "ставить"
+    },
+    {
+        "Artikel": "",
+        "Word": "nehmen",
+        "Translation": "брать"
+    },
+    {
+        "Artikel": "",
+        "Word": "legen",
+        "Translation": "класть"
+    },
+    {
+        "Artikel": "",
+        "Word": "halten",
+        "Translation": "держать"
+    },
+    {
+        "Artikel": "",
+        "Word": "beginnen",
+        "Translation": "начинать"
+    },
+    {
+        "Artikel": "",
+        "Word": "benutzen",
+        "Translation": "использовать, применять"
+    },
+    {
+        "Artikel": "",
+        "Word": "aufhören",
+        "Translation": "прекращать"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Hobby, -s",
+        "Translation": "хобби"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Kino, -s",
+        "Translation": "кинотеатр"
+    },
+    {
+        "Artikel": "",
+        "Word": "wandern",
+        "Translation": "ходить в поход, гулять в лесу"
+    },
+    {
+        "Artikel": "",
+        "Word": "lesen",
+        "Translation": "читать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Garten, -¨",
+        "Translation": "сад"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Buch, -¨er",
+        "Translation": "книга"
+    },
+    {
+        "Artikel": "",
+        "Word": "kulturell",
+        "Translation": "культурный[связанный в культурой]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Zeitung, -en",
+        "Translation": "газета"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Lied, -er",
+        "Translation": "песня"
+    },
+    {
+        "Artikel": "",
+        "Word": "fernsehen",
+        "Translation": "смотреть телевизор"
+    },
+    {
+        "Artikel": "",
+        "Word": "rauchen",
+        "Translation": "курить"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Film, -e",
+        "Translation": "фильм"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Zigarette, -n",
+        "Translation": "сигарета"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Sport, -e",
+        "Translation": "спорт"
+    },
+    {
+        "Artikel": "",
+        "Word": "schwimmen",
+        "Translation": "плавать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Verein, -e",
+        "Translation": "объединение, общество"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Schwimmbad, -¨er",
+        "Translation": "бассейн"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Fußball, -¨e",
+        "Translation": "футбол [Sn.], футбольный мяч"
+    },
+    {
+        "Artikel": "",
+        "Word": "gewinnen",
+        "Translation": "выигрывать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Bogen, —",
+        "Translation": "дуга, лук[оружие]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Laden, -¨",
+        "Translation": "магазин"
+    },
+    {
+        "Artikel": "",
+        "Word": "günstig",
+        "Translation": "выгодный по цене, недорогой"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Geschäft, -e",
+        "Translation": "бизнес, магазин"
+    },
+    {
+        "Artikel": "",
+        "Word": "billig",
+        "Translation": "дешёвый, дешево"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kiosk, -e",
+        "Translation": "киоск"
+    },
+    {
+        "Artikel": "",
+        "Word": "teuer",
+        "Translation": "дорогой"
+    },
+    {
+        "Artikel": "",
+        "Word": "geöffnet",
+        "Translation": "открыто, открытый"
+    },
+    {
+        "Artikel": "",
+        "Word": "bestellen",
+        "Translation": "заказывать"
+    },
+    {
+        "Artikel": "",
+        "Word": "geschlossen",
+        "Translation": "закрыто, закрытый"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Kasse, -n",
+        "Translation": "касса"
+    },
+    {
+        "Artikel": "",
+        "Word": "anbieten",
+        "Translation": "предлагать"
+    },
+    {
+        "Artikel": "",
+        "Word": "zahlen",
+        "Translation": "платить"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Angebot, -e",
+        "Translation": "предложение"
+    },
+    {
+        "Artikel": "",
+        "Word": "bezahlen",
+        "Translation": "оплачивать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Prospekt, -e",
+        "Translation": "проспект[улица, рекламка]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Tasche, -n",
+        "Translation": "сумка"
+    },
+    {
+        "Artikel": "",
+        "Word": "kaufen",
+        "Translation": "покупать"
+    },
+    {
+        "Artikel": "",
+        "Word": "empfehlen",
+        "Translation": "рекомендовать"
+    },
+    {
+        "Artikel": "",
+        "Word": "einkaufen",
+        "Translation": "делать покупки"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Größe, -n",
+        "Translation": "размер"
+    },
+    {
+        "Artikel": "",
+        "Word": "verkaufen",
+        "Translation": "продавать"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Jacke, -n",
+        "Translation": "куртка"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Verkäufer, —",
+        "Translation": "продавец"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Kleidung, -en",
+        "Translation": "одежда"
+    },
+    {
+        "Artikel": "",
+        "Word": "kosten",
+        "Translation": "стоить"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Schuh, -e",
+        "Translation": "ботинок"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Preis, -e",
+        "Translation": "цена"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Heimat, -en",
+        "Translation": "родина"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Ausländer, —",
+        "Translation": "иностранец"
+    },
+    {
+        "Artikel": "",
+        "Word": "reisen",
+        "Translation": "путешествовать"
+    },
+    {
+        "Artikel": "",
+        "Word": "ausländisch",
+        "Translation": "иностранный"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Reise, -n",
+        "Translation": "путешествие"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Hotel, -s",
+        "Translation": "отель"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Reisebüro, -s",
+        "Translation": "бюро путешествий"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Rezeption, -en",
+        "Translation": "рецепция"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Reiseführer, —",
+        "Translation": "гид[человек, книга]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Doppelzimmer, —",
+        "Translation": "комната на двоих в отеле"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Koffer, —",
+        "Translation": "чемодан"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Einzelzimmer",
+        "Translation": "комната на одного в отеле"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Gepäck",
+        "Translation": "багаж"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Halbpension",
+        "Translation": "полупансион[в отеле, санатории]"
+    },
+    {
+        "Artikel": "",
+        "Word": "abfahren",
+        "Translation": "выезжать, отъезжать, отправляться"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Karte, -n",
+        "Translation": "карта"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Abfahrt, -en",
+        "Translation": "отправление, отъезд"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Ausflug, -¨e",
+        "Translation": "экскурсия, поездка с целью развлечения"
+    },
+    {
+        "Artikel": "",
+        "Word": "abfliegen",
+        "Translation": "вылетать[например, на самолёте]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Plan, -¨e",
+        "Translation": "план"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Abflug, -¨e",
+        "Translation": "вылет"
+    },
+    {
+        "Artikel": "",
+        "Word": "eilig",
+        "Translation": "спешный, спешно"
+    },
+    {
+        "Artikel": "",
+        "Word": "ankommen",
+        "Translation": "прибывать, приезжать"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Eile",
+        "Translation": "спешка"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Ankunft, -¨e",
+        "Translation": "прибытие"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Sehenswürdigkeit, -en",
+        "Translation": "достопримечательность"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Ausland",
+        "Translation": "заграница"
+    },
+    {
+        "Artikel": "",
+        "Word": "besichtigen",
+        "Translation": "посещать[место, достопримечательность]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Auto, -s",
+        "Translation": "машина"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Fahrrad, -¨er",
+        "Translation": "велосипед"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Autobahn, -en",
+        "Translation": "скоростная трасса"
+    },
+    {
+        "Artikel": "",
+        "Word": "Rad fahren",
+        "Translation": "ехать на велосипеде"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Taxi, -s",
+        "Translation": "такси"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Lkw, -s",
+        "Translation": "грузовик"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Fahrer, —",
+        "Translation": "водитель"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Fahrkarte, -n",
+        "Translation": "проездной билет"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Bus, -¨e",
+        "Translation": "автобус"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Ticket, -s",
+        "Translation": "билет[проездной, на мероприятие]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Haltestelle, -n",
+        "Translation": "остановка общественного транспорта"
+    },
+    {
+        "Artikel": "",
+        "Word": "einsteigen",
+        "Translation": "входить, садиться[в транспорт]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Bahn, -en",
+        "Translation": "железная дорога"
+    },
+    {
+        "Artikel": "",
+        "Word": "aussteigen",
+        "Translation": "выходить[из транспорта, «игры»]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "S-Bahn, -en",
+        "Translation": "пригородная электричка в германии"
+    },
+    {
+        "Artikel": "",
+        "Word": "frei",
+        "Translation": "свободно, свободный"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Straßenbahn, -en",
+        "Translation": "трамвай"
+    },
+    {
+        "Artikel": "",
+        "Word": "besetzt",
+        "Translation": "занято"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Zug, -¨e",
+        "Translation": "поезд"
+    },
+    {
+        "Artikel": "",
+        "Word": "langsam",
+        "Translation": "медленный"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Bahnhof, -¨e",
+        "Translation": "вокзал"
+    },
+    {
+        "Artikel": "",
+        "Word": "schnell",
+        "Translation": "быстрый"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Bahnsteig, -e",
+        "Translation": "железнодорожная платформа"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Automat, -e",
+        "Translation": "автомат[устройство]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Gleis, -e",
+        "Translation": "железнодорожный путь"
+    },
+    {
+        "Artikel": "",
+        "Word": "automatisch",
+        "Translation": "автоматически"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Flugzeug, -e",
+        "Translation": "самолёт"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Maschine, -n",
+        "Translation": "механизм, станок"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Flughafen, -¨",
+        "Translation": "аэропорт"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Schild, -er",
+        "Translation": "знак [дорожный], щит, вывеска, табличка"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kopf, -¨e",
+        "Translation": "голова"
+    },
+    {
+        "Artikel": "",
+        "Word": "aussehen",
+        "Translation": "выглядеть"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Arm, -e",
+        "Translation": "рука"
+    },
+    {
+        "Artikel": "",
+        "Word": "",
+        "Translation": "одевать-ся"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Hand, -¨e",
+        "Translation": "ладонь"
+    },
+    {
+        "Artikel": "",
+        "Word": "",
+        "Translation": "раздевать-ся"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Bein, -e",
+        "Translation": "нога"
+    },
+    {
+        "Artikel": "",
+        "Word": "baden",
+        "Translation": "принимать ванну, купаться"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Fuß, -¨e",
+        "Translation": "стопа"
+    },
+    {
+        "Artikel": "",
+        "Word": "",
+        "Translation": "мыть-ся в душе"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Bauch, -¨e",
+        "Translation": "живот"
+    },
+    {
+        "Artikel": "",
+        "Word": "",
+        "Translation": "мыть-ся"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Haar, -¨e",
+        "Translation": "волос"
+    },
+    {
+        "Artikel": "",
+        "Word": "krank",
+        "Translation": "больной"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Mund, -¨er",
+        "Translation": "рот"
+    },
+    {
+        "Artikel": "",
+        "Word": "weh tun",
+        "Translation": "делать больно"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Auge, -n",
+        "Translation": "глаз"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Fieber, —",
+        "Translation": "жар[температура]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Blick, -e",
+        "Translation": "взгляд"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Arzt, -¨e",
+        "Translation": "врач"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Gewicht, -e",
+        "Translation": "вес"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Doktor, -en",
+        "Translation": "доктор[врач, кандидат наук]"
+    },
+    {
+        "Artikel": "",
+        "Word": "geboren",
+        "Translation": "рожден-а"
+    },
+    {
+        "Artikel": "",
+        "Word": "gestorben",
+        "Translation": "умер-ла"
+    },
+    {
+        "Artikel": "",
+        "Word": "leben",
+        "Translation": "жить"
+    },
+    {
+        "Artikel": "",
+        "Word": "tot",
+        "Translation": "мёртвый"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Leben, —",
+        "Translation": "жизнь"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kindergarten, -¨",
+        "Translation": "детский сад"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Hausaufgabe, -n",
+        "Translation": "домашнее задание"
+    },
+    {
+        "Artikel": "",
+        "Word": "laut",
+        "Translation": "громкий, громко"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Test, -e",
+        "Translation": "тест"
+    },
+    {
+        "Artikel": "",
+        "Word": "leise",
+        "Translation": "тихий, тихо"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Prüfung, -en",
+        "Translation": "экзамен"
+    },
+    {
+        "Artikel": "",
+        "Word": "lernen",
+        "Translation": "учить [что-нибудь], учиться"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Bleistift, -e",
+        "Translation": "простой карандаш"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Schule, -n",
+        "Translation": "школа"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kugelschreiber, —",
+        "Translation": "шариковая ручка"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Klasse, -n",
+        "Translation": "класс"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Papier, -e",
+        "Translation": "бумага, документ"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Schüler, —",
+        "Translation": "ученик"
+    },
+    {
+        "Artikel": "",
+        "Word": "schreiben",
+        "Translation": "писать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Lehrer, —",
+        "Translation": "учитель"
+    },
+    {
+        "Artikel": "",
+        "Word": "wissen",
+        "Translation": "знать"
+    },
+    {
+        "Artikel": "",
+        "Word": "studieren",
+        "Translation": "учиться в вузе"
+    },
+    {
+        "Artikel": "",
+        "Word": "leicht",
+        "Translation": "лёгкий, легко"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Studium, die Studien",
+        "Translation": "учёба в вузе"
+    },
+    {
+        "Artikel": "",
+        "Word": "einfach",
+        "Translation": "простой, просто"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Gruppe, -n",
+        "Translation": "группа"
+    },
+    {
+        "Artikel": "",
+        "Word": "schwer",
+        "Translation": "тяжёлый, тяжело"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Student, -en",
+        "Translation": "студент"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Lösung, -en",
+        "Translation": "решение, ответ [к задаче]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Unterricht, -e",
+        "Translation": "занятие"
+    },
+    {
+        "Artikel": "",
+        "Word": "fertig",
+        "Translation": "готовый, готово"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Pause, -n",
+        "Translation": "пауза, перерыв"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Ergebnis, -se",
+        "Translation": "результат"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Thema, die Themen",
+        "Translation": "тема"
+    },
+    {
+        "Artikel": "",
+        "Word": "richtig",
+        "Translation": "правильный, правильно"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Information, -en",
+        "Translation": "информация"
+    },
+    {
+        "Artikel": "",
+        "Word": "falsch",
+        "Translation": "неправильный, неправильно"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Beispiel, -e",
+        "Translation": "пример"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Fehler, —",
+        "Translation": "ошибка"
+    },
+    {
+        "Artikel": "",
+        "Word": "zum Beispiel",
+        "Translation": "например"
+    },
+    {
+        "Artikel": "",
+        "Word": "fehlen",
+        "Translation": "отсутствовать"
+    },
+    {
+        "Artikel": "",
+        "Word": "erklären",
+        "Translation": "объяснять"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Praktikum, die Praktika",
+        "Translation": "практика [после учёбы]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Aufgabe, -n",
+        "Translation": "задание"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kurs, -e",
+        "Translation": "курс[дополнительное образование, направление движения]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Buchstabe, -n",
+        "Translation": "буква"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Sprache, -n",
+        "Translation": "язык[немецкий, английский и т. д.]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Wort, -¨er",
+        "Translation": "слово"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Aussage, -n",
+        "Translation": "высказывание"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Satz, -¨e",
+        "Translation": "предложение"
+    },
+    {
+        "Artikel": "",
+        "Word": "bedeuten",
+        "Translation": "означать, значить"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Text, -e",
+        "Translation": "текст"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Beruf, -e",
+        "Translation": "профессия"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Chef, -s",
+        "Translation": "шеф"
+    },
+    {
+        "Artikel": "",
+        "Word": "arbeiten",
+        "Translation": "работать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kollege, -n",
+        "Translation": "коллега"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Arbeit, -en",
+        "Translation": "работа"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Kunde, -n",
+        "Translation": "клиент"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Job, -s",
+        "Translation": "работа[чаще ручной или несложный труд]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Anrede, -n",
+        "Translation": "обращение, официальная речь"
+    },
+    {
+        "Artikel": "",
+        "Word": "arbeitslos",
+        "Translation": "безработный"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Ansage, -n",
+        "Translation": "объявление, оповещение о чём-либо"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Firma, die Firmen",
+        "Translation": "фирма"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Durchsage, -n",
+        "Translation": "объявление[через громкоговоритель, аудио-систему]"
+    },
+    {
+        "Artikel": "",
+        "Word": "selbstständig",
+        "Translation": "самостоятельный, самозанятый"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Gespräch, -e",
+        "Translation": "разговор"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Praxis, die Praxen",
+        "Translation": "врачебный кабинет[личный, для\n                        врача-предпринимателя]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Problem, -e",
+        "Translation": "проблема"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Hausfrau, -en",
+        "Translation": "домохозяйка"
+    },
+    {
+        "Artikel": "",
+        "Word": "wichtig",
+        "Translation": "важный"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Hausmann, -¨er",
+        "Translation": "домохозяин"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Schluss, -¨e",
+        "Translation": "конец, завершение"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Arbeitsplatz, -¨e",
+        "Translation": "рабочее место"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Urlaub, -e",
+        "Translation": "отпуск"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Stelle, -n",
+        "Translation": "место, позиция, должность"
+    },
+    {
+        "Artikel": "",
+        "Word": "verdienen",
+        "Translation": "зарабатывать"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Führung, -en",
+        "Translation": "управление, руководство"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Computer, -s",
+        "Translation": "компьютер"
+    },
+    {
+        "Artikel": "",
+        "Word": "drucken",
+        "Translation": "печатать"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Internet",
+        "Translation": "интернет"
+    },
+    {
+        "Artikel": "",
+        "Word": "drücken",
+        "Translation": "нажимать"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Fax, -e",
+        "Translation": "факс"
+    },
+    {
+        "Artikel": "",
+        "Word": "anklicken",
+        "Translation": "кликнуть мышкой[на объект, ссылку]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Drucker, —",
+        "Translation": "принтер"
+    },
+    {
+        "Artikel": "die",
+        "Word": "CD, -s",
+        "Translation": "компакт-диск"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Eintritt, -e",
+        "Translation": "вступление [в организацию, партию], вход [на\n                        мероприятие]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Zoll, -¨e",
+        "Translation": "таможня"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Termin, -e",
+        "Translation": "запись на время[к врачу, чиновнику]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Polizei, -en",
+        "Translation": "полиция"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Schalter, —",
+        "Translation": "переключатель, окошко [в гос.органах, банке]"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Ausweis, -e",
+        "Translation": "документ, удостоверяющий личность[id-карта]"
+    },
+    {
+        "Artikel": "",
+        "Word": "pünktlich",
+        "Translation": "вовремя"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Pass, -¨e",
+        "Translation": "паспорт"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Nummer, -n",
+        "Translation": "номер[число]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Papiere",
+        "Translation": "документы"
+    },
+    {
+        "Artikel": "",
+        "Word": "",
+        "Translation": "зарегистрировать-ся, записать-ся"
+    },
+    {
+        "Artikel": "",
+        "Word": "gültig",
+        "Translation": "действительный, актуальный"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Anmeldung, -en",
+        "Translation": "регистрация"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Ordnung, -en",
+        "Translation": "порядок"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Auskunft, -¨e",
+        "Translation": "выписка, справка"
+    },
+    {
+        "Artikel": "",
+        "Word": "erlauben",
+        "Translation": "разрешать"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Foto, -s",
+        "Translation": "фото"
+    },
+    {
+        "Artikel": "",
+        "Word": "verboten",
+        "Translation": "запрещать, запрещено"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Beamte, -n",
+        "Translation": "госслужащий"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Formular, -e",
+        "Translation": "формуляр"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Geburtsort, -e",
+        "Translation": "место рождения"
+    },
+    {
+        "Artikel": "",
+        "Word": "ausfüllen",
+        "Translation": "заполнять[документ, анкету]"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Alter, —",
+        "Translation": "возраст"
+    },
+    {
+        "Artikel": "",
+        "Word": "ankreuzen",
+        "Translation": "отметить крестиком"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Familienstand, -¨e",
+        "Translation": "семейное положение"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Name, -n",
+        "Translation": "имя, название"
+    },
+    {
+        "Artikel": "",
+        "Word": "ledig",
+        "Translation": "холостой"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Vorname, -n",
+        "Translation": "имя"
+    },
+    {
+        "Artikel": "",
+        "Word": "verheiratet",
+        "Translation": "женат, замужем"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Familienname, -n",
+        "Translation": "фамилия"
+    },
+    {
+        "Artikel": "",
+        "Word": "unterschreiben",
+        "Translation": "подписывать"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Geburtsjahr, -e",
+        "Translation": "год рождения"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Unterschrift, -en",
+        "Translation": "подпись"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Geburtstag",
+        "Translation": "день рождения"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Bank, -¨e",
+        "Translation": "скамья"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Konto, die Konten",
+        "Translation": "счёт[в банке]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Bank, -en",
+        "Translation": "банк"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Kreditkarte, -n",
+        "Translation": "кредитная карта"
+    },
+    {
+        "Artikel": "das",
+        "Word": "Geld, -er",
+        "Translation": "деньги"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Rechnung, -en",
+        "Translation": "счёт[квитанция на оплату]"
+    },
+    {
+        "Artikel": "",
+        "Word": "bar",
+        "Translation": "наличные"
+    },
+    {
+        "Artikel": "",
+        "Word": "überweisen",
+        "Translation": "переводить[деньги, пациента от врача к врачу]"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Post, -en",
+        "Translation": "почта"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Postleitzahl, -en",
+        "Translation": "почтовый индекс"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Brief, -e",
+        "Translation": "письмо"
+    },
+    {
+        "Artikel": "",
+        "Word": "abgeben",
+        "Translation": "отдавать"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Briefmarke, -n",
+        "Translation": "почтовая марка"
+    },
+    {
+        "Artikel": "",
+        "Word": "schicken",
+        "Translation": "отправлять, посылать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Absender, —",
+        "Translation": "отправитель"
+    },
+    {
+        "Artikel": "",
+        "Word": "abholen",
+        "Translation": "забирать"
+    },
+    {
+        "Artikel": "der",
+        "Word": "Empfänger, —",
+        "Translation": "получатель, адресат"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Vorwahl, -en",
+        "Translation": "телефонный код"
+    },
+    {
+        "Artikel": "die",
+        "Word": "Adresse, -n",
+        "Translation": "адрес"
+    }
+]
