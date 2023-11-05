@@ -2,3831 +2,4597 @@
     {
         "Artikel": "",
         "Word": "ich",
-        "Translation": "я"
+        "Translation": "я",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wir",
-        "Translation": "мы"
+        "Translation": "мы",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "du",
-        "Translation": "ты"
+        "Translation": "ты",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ihr",
-        "Translation": "вы[множественное число]"
+        "Translation": "вы[множественное число]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "er",
-        "Translation": "он"
+        "Translation": "он",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sie",
-        "Translation": "они[множественное число]"
+        "Translation": "они[множественное число]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sie",
-        "Translation": "она"
+        "Translation": "она",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Sie",
-        "Translation": "Вы[уважительное]"
+        "Translation": "Вы[уважительное]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "es",
-        "Translation": "оно"
+        "Translation": "оно",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "mir",
-        "Translation": "мне"
+        "Translation": "мне",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "uns",
-        "Translation": "нам"
+        "Translation": "нам",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "dir",
-        "Translation": "тебе"
+        "Translation": "тебе",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "euch",
-        "Translation": "вам[множественное число]"
+        "Translation": "вам[множественное число]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ihm",
-        "Translation": "ему"
+        "Translation": "ему",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ihnen",
-        "Translation": "им[множественное число]"
+        "Translation": "им[множественное число]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ihr",
-        "Translation": "ей"
+        "Translation": "ей",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Ihnen",
-        "Translation": "Вам[уважительное]"
+        "Translation": "Вам[уважительное]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ihm",
-        "Translation": "ему[средний род]"
+        "Translation": "ему[средний род]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "mich",
-        "Translation": "меня"
+        "Translation": "меня",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "uns",
-        "Translation": "нам"
+        "Translation": "нам",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "dich",
-        "Translation": "тебя"
+        "Translation": "тебя",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "euch",
-        "Translation": "вас[множественное число]"
+        "Translation": "вас[множественное число]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ihn",
-        "Translation": "его[мужской род]"
+        "Translation": "его[мужской род]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sie",
-        "Translation": "их[множественное число]"
+        "Translation": "их[множественное число]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sie",
-        "Translation": "её"
+        "Translation": "её",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Sie",
-        "Translation": "Вас[уважительное]"
+        "Translation": "Вас[уважительное]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "es",
-        "Translation": "его[средний род]"
+        "Translation": "его[средний род]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Hallo!",
-        "Translation": "Привет![повседневное приветствие]"
+        "Translation": "Привет![повседневное приветствие]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Vorsicht!",
-        "Translation": "Осторожно!"
+        "Translation": "Осторожно!",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Willkommen!",
-        "Translation": "Добро пожаловать!"
+        "Translation": "Добро пожаловать!",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Gerne!",
-        "Translation": "Охотно! С удовольствием!"
+        "Translation": "Охотно! С удовольствием!",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Bitte!",
-        "Translation": "Пожалуйста!"
+        "Translation": "Пожалуйста!",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Tschüss!",
-        "Translation": "Пока![неформальное прощание]"
+        "Translation": "Пока![неформальное прощание]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Danke!",
-        "Translation": "Спасибо!"
+        "Translation": "Спасибо!",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Auf Wiederhören!",
-        "Translation": "Услышимся!"
+        "Translation": "Услышимся!",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Achtung!",
-        "Translation": "Внимание!"
+        "Translation": "Внимание!",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Auf Wiedersehen!",
-        "Translation": "До встречи!"
+        "Translation": "До встречи!",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Zeit, -en",
-        "Translation": "время"
+        "Translation": "время",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Sekunde, -n",
-        "Translation": "секунда"
+        "Translation": "секунда",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Datum, die Daten",
-        "Translation": "дата, число"
+        "Translation": "дата, число",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Moment, -e",
-        "Translation": "момент"
+        "Translation": "момент",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Jahr, -e",
-        "Translation": "год"
+        "Translation": "год",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Morgen, —",
-        "Translation": "утро"
+        "Translation": "утро",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Monat, -e",
-        "Translation": "месяц"
+        "Translation": "месяц",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Vormittag, -e",
-        "Translation": "первая половина дня"
+        "Translation": "первая половина дня",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Woche, -n",
-        "Translation": "неделя"
+        "Translation": "неделя",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Mittag, -e",
-        "Translation": "полдень"
+        "Translation": "полдень",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Tag, -e",
-        "Translation": "день"
+        "Translation": "день",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Nachmittag, -e",
-        "Translation": "вторая половина дня"
+        "Translation": "вторая половина дня",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Stunde, -n",
-        "Translation": "час, урок"
+        "Translation": "час, урок",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Abend, -e",
-        "Translation": "вечер"
+        "Translation": "вечер",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Minute, -n",
-        "Translation": "минута"
+        "Translation": "минута",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Nacht, -¨e",
-        "Translation": "ночь"
+        "Translation": "ночь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "anfangen",
-        "Translation": "начинать, начинаться"
+        "Translation": "начинать, начинаться",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sofort",
-        "Translation": "сейчас же"
+        "Translation": "сейчас же",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "dauern",
-        "Translation": "длиться"
+        "Translation": "длиться",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "heute",
-        "Translation": "сегодня"
+        "Translation": "сегодня",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "enden",
-        "Translation": "заканчивать, оканчиваться"
+        "Translation": "заканчивать, оканчиваться",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gerade",
-        "Translation": "прямо сейчас, только что"
+        "Translation": "прямо сейчас, только что",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "nie",
-        "Translation": "никогда"
+        "Translation": "никогда",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zurzeit",
-        "Translation": "в этот момент, прямо сейчас"
+        "Translation": "в этот момент, прямо сейчас",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "einmal",
-        "Translation": "один раз, однажды"
+        "Translation": "один раз, однажды",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "jetzt",
-        "Translation": "теперь, сейчас"
+        "Translation": "теперь, сейчас",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "oft",
-        "Translation": "часто"
+        "Translation": "часто",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schon",
-        "Translation": "уже"
+        "Translation": "уже",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "immer",
-        "Translation": "всегда"
+        "Translation": "всегда",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "seit",
-        "Translation": "с[даты, времени]"
+        "Translation": "с[даты, времени]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "früher",
-        "Translation": "раньше"
+        "Translation": "раньше",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "spät",
-        "Translation": "поздно"
+        "Translation": "поздно",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gestern",
-        "Translation": "вчера"
+        "Translation": "вчера",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "morgen",
-        "Translation": "завтра"
+        "Translation": "завтра",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bald",
-        "Translation": "скоро"
+        "Translation": "скоро",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Wochentag, -e",
-        "Translation": "день недели"
+        "Translation": "день недели",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Freitag, -e",
-        "Translation": "пятница"
+        "Translation": "пятница",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Montag, -e",
-        "Translation": "понедельник"
+        "Translation": "понедельник",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Wochenende, -n",
-        "Translation": "выходные"
+        "Translation": "выходные",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Dienstag, -e",
-        "Translation": "вторник"
+        "Translation": "вторник",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Samstag, -e",
-        "Translation": "суббота"
+        "Translation": "суббота",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Mittwoch, -e",
-        "Translation": "среда"
+        "Translation": "среда",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Sonntag, -e",
-        "Translation": "воскресенье"
+        "Translation": "воскресенье",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Donnerstag, -e",
-        "Translation": "четверг"
+        "Translation": "четверг",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Frühling, -e",
-        "Translation": "весна"
+        "Translation": "весна",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Mai, -e",
-        "Translation": "май"
+        "Translation": "май",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Sommer, —",
-        "Translation": "лето"
+        "Translation": "лето",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Juni, -s",
-        "Translation": "июнь"
+        "Translation": "июнь",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Herbst, -e",
-        "Translation": "осень"
+        "Translation": "осень",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Juli, -s",
-        "Translation": "июль"
+        "Translation": "июль",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Winter, —",
-        "Translation": "зима"
+        "Translation": "зима",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "August, -e",
-        "Translation": "август"
+        "Translation": "август",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Januar, -e",
-        "Translation": "январь"
+        "Translation": "январь",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "September, —",
-        "Translation": "сентябрь"
+        "Translation": "сентябрь",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Februar, -e",
-        "Translation": "февраль"
+        "Translation": "февраль",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Oktober, —",
-        "Translation": "октябрь"
+        "Translation": "октябрь",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "März, -e",
-        "Translation": "март"
+        "Translation": "март",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "November, —",
-        "Translation": "ноябрь"
+        "Translation": "ноябрь",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "April, -e",
-        "Translation": "апрель"
+        "Translation": "апрель",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Dezember, —",
-        "Translation": "декабрь"
+        "Translation": "декабрь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "eins",
-        "Translation": "один"
+        "Translation": "один",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "siebzehn",
-        "Translation": "семнадцать"
+        "Translation": "семнадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zwei",
-        "Translation": "два"
+        "Translation": "два",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "achtzehn",
-        "Translation": "восемнадцать"
+        "Translation": "восемнадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "drei",
-        "Translation": "три"
+        "Translation": "три",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "neunzehn",
-        "Translation": "девятнадцать"
+        "Translation": "девятнадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "vier",
-        "Translation": "четыре"
+        "Translation": "четыре",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zwanzig",
-        "Translation": "двадцать"
+        "Translation": "двадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fünf",
-        "Translation": "пять"
+        "Translation": "пять",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "dreißig",
-        "Translation": "тридцать"
+        "Translation": "тридцать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sechs",
-        "Translation": "шесть"
+        "Translation": "шесть",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "vierzig",
-        "Translation": "сорок"
+        "Translation": "сорок",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sieben",
-        "Translation": "семь"
+        "Translation": "семь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fünfzig",
-        "Translation": "пятьдесят"
+        "Translation": "пятьдесят",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "acht",
-        "Translation": "восемь"
+        "Translation": "восемь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sechzig",
-        "Translation": "шестьдесят"
+        "Translation": "шестьдесят",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "neun",
-        "Translation": "девять"
+        "Translation": "девять",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "siebzig",
-        "Translation": "семьдесят"
+        "Translation": "семьдесят",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zehn",
-        "Translation": "десять"
+        "Translation": "десять",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "achtzig",
-        "Translation": "восемьдесят"
+        "Translation": "восемьдесят",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "elf",
-        "Translation": "одиннадцать"
+        "Translation": "одиннадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "neunzig",
-        "Translation": "девяносто"
+        "Translation": "девяносто",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zwölf",
-        "Translation": "двенадцать"
+        "Translation": "двенадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "hundert",
-        "Translation": "сто"
+        "Translation": "сто",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "dreizehn",
-        "Translation": "тринадцать"
+        "Translation": "тринадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "tausend",
-        "Translation": "тысяча"
+        "Translation": "тысяча",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "vierzehn",
-        "Translation": "четырнадцать"
+        "Translation": "четырнадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Million, -en",
-        "Translation": "миллион"
+        "Translation": "миллион",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fünfzehn",
-        "Translation": "пятнадцать"
+        "Translation": "пятнадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Milliarde, -n",
-        "Translation": "миллиард"
+        "Translation": "миллиард",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sechzehn",
-        "Translation": "шестнадцать"
+        "Translation": "шестнадцать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Meter, —",
-        "Translation": "метр"
+        "Translation": "метр",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Liter, —",
-        "Translation": "литр"
+        "Translation": "литр",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Zentimeter, —",
-        "Translation": "сантиметр"
+        "Translation": "сантиметр",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Gramm, -e",
-        "Translation": "грамм"
+        "Translation": "грамм",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Quadratmeter, —",
-        "Translation": "квадратный метр"
+        "Translation": "квадратный метр",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Kilogramm, -e",
-        "Translation": "килограмм"
+        "Translation": "килограмм",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Prozent, -e",
-        "Translation": "процент"
+        "Translation": "процент",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Pfund, -e",
-        "Translation": "фунт"
+        "Translation": "фунт",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "circa",
-        "Translation": "примерно, приблизительно"
+        "Translation": "примерно, приблизительно",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "mehr",
-        "Translation": "больше"
+        "Translation": "больше",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bisschen",
-        "Translation": "немного"
+        "Translation": "немного",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "viel",
-        "Translation": "много"
+        "Translation": "много",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wenig",
-        "Translation": "мало"
+        "Translation": "мало",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schwarz",
-        "Translation": "чёрный"
+        "Translation": "чёрный",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "grün",
-        "Translation": "зелёный"
+        "Translation": "зелёный",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "weiß",
-        "Translation": "белый"
+        "Translation": "белый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "rot",
-        "Translation": "красный"
+        "Translation": "красный",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "grau",
-        "Translation": "серый"
+        "Translation": "серый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gelb",
-        "Translation": "жёлтый"
+        "Translation": "жёлтый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "blau",
-        "Translation": "синий"
+        "Translation": "синий",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "braun",
-        "Translation": "коричневый"
+        "Translation": "коричневый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wer",
-        "Translation": "кто?"
+        "Translation": "кто?",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "warum",
-        "Translation": "почему?"
+        "Translation": "почему?",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "was",
-        "Translation": "что?"
+        "Translation": "что?",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "woher",
-        "Translation": "откуда?"
+        "Translation": "откуда?",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wo",
-        "Translation": "где?"
+        "Translation": "где?",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wohin",
-        "Translation": "куда?"
+        "Translation": "куда?",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wie",
-        "Translation": "как?"
+        "Translation": "как?",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wie viel",
-        "Translation": "как много?"
+        "Translation": "как много?",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wann",
-        "Translation": "когда?"
+        "Translation": "когда?",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "was für ein/eine/einen",
-        "Translation": "что за? какой?"
+        "Translation": "что за? какой?",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Welt, -en",
-        "Translation": "мир"
+        "Translation": "мир",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Teil, -e",
-        "Translation": "часть"
+        "Translation": "часть",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Land, -¨er",
-        "Translation": "страна"
+        "Translation": "страна",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "geradeaus",
-        "Translation": "прямо[идти, ехать]"
+        "Translation": "прямо[идти, ехать]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Stadt, -¨e",
-        "Translation": "город"
+        "Translation": "город",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zurück",
-        "Translation": "назад, обратно"
+        "Translation": "назад, обратно",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Dorf, -¨er",
-        "Translation": "деревня"
+        "Translation": "деревня",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "nach links",
-        "Translation": "налево"
+        "Translation": "налево",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Straße, -n",
-        "Translation": "улица"
+        "Translation": "улица",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "nach rechts",
-        "Translation": "направо"
+        "Translation": "направо",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Platz, -¨e",
-        "Translation": "место, площадь"
+        "Translation": "место, площадь",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Norden",
-        "Translation": "север"
+        "Translation": "север",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Ort, -e",
-        "Translation": "место, небольшой городок"
+        "Translation": "место, небольшой городок",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Süden",
-        "Translation": "юг"
+        "Translation": "юг",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Anfang, -¨e",
-        "Translation": "начало"
+        "Translation": "начало",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Westen",
-        "Translation": "запад"
+        "Translation": "запад",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Mitte, -n",
-        "Translation": "середина"
+        "Translation": "середина",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Osten",
-        "Translation": "восток"
+        "Translation": "восток",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Ende, -n",
-        "Translation": "конец"
+        "Translation": "конец",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "hier",
-        "Translation": "здесь, тут"
+        "Translation": "здесь, тут",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "rechts",
-        "Translation": "справа"
+        "Translation": "справа",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "da",
-        "Translation": "там, тут"
+        "Translation": "там, тут",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "oben",
-        "Translation": "наверху"
+        "Translation": "наверху",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "dort",
-        "Translation": "там"
+        "Translation": "там",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "unten",
-        "Translation": "внизу"
+        "Translation": "внизу",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "daneben",
-        "Translation": "рядом"
+        "Translation": "рядом",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "unter",
-        "Translation": "под"
+        "Translation": "под",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "draußen",
-        "Translation": "снаружи, на улице"
+        "Translation": "снаружи, на улице",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "hinten",
-        "Translation": "сзади"
+        "Translation": "сзади",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "links",
-        "Translation": "слева"
+        "Translation": "слева",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "hinter",
-        "Translation": "находиться позади[чего-либо]"
+        "Translation": "находиться позади[чего-либо]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "weg sein",
-        "Translation": "быть не здесь, отсутствовать, уйти"
+        "Translation": "быть не здесь, отсутствовать, уйти",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "auf sein",
-        "Translation": "быть открытым[об окне, двери, магазине]"
+        "Translation": "быть открытым[об окне, двери, магазине]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zu sein",
-        "Translation": "быть закрытым"
+        "Translation": "быть закрытым",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "aus sein",
-        "Translation": "быть выключенным, не работать [о технике]"
+        "Translation": "быть выключенным, не работать [о технике]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "an sein",
-        "Translation": "быть включённым, работать[о технике]"
+        "Translation": "быть включённым, работать[о технике]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "haben",
-        "Translation": "иметь"
+        "Translation": "иметь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "müssen",
-        "Translation": "быть должным, обязанным"
+        "Translation": "быть должным, обязанным",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sein",
-        "Translation": "быть"
+        "Translation": "быть",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sollen",
-        "Translation": "быть должным, иметь приказ"
+        "Translation": "быть должным, иметь приказ",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "werden",
-        "Translation": "становиться"
+        "Translation": "становиться",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "heißen",
-        "Translation": "зваться, называться"
+        "Translation": "зваться, называться",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "können",
-        "Translation": "мочь, уметь"
+        "Translation": "мочь, уметь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "brauchen",
-        "Translation": "нуждаться"
+        "Translation": "нуждаться",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wollen",
-        "Translation": "хотеть"
+        "Translation": "хотеть",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bekommen",
-        "Translation": "получать"
+        "Translation": "получать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "möchten",
-        "Translation": "хотеть[вежливая форма]"
+        "Translation": "хотеть[вежливая форма]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kriegen",
-        "Translation": "воевать, получать [разг.]"
+        "Translation": "воевать, получать [разг.]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "dürfen",
-        "Translation": "мочь, иметь право, разрешение"
+        "Translation": "мочь, иметь право, разрешение",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gehören",
-        "Translation": "принадлежать"
+        "Translation": "принадлежать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schlafen",
-        "Translation": "спать"
+        "Translation": "спать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "laufen",
-        "Translation": "бежать"
+        "Translation": "бежать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "stehen",
-        "Translation": "стоять"
+        "Translation": "стоять",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fahren",
-        "Translation": "ехать"
+        "Translation": "ехать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "aufstehen",
-        "Translation": "вставать"
+        "Translation": "вставать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fliegen",
-        "Translation": "летать"
+        "Translation": "летать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "liegen",
-        "Translation": "лежать"
+        "Translation": "лежать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kommen",
-        "Translation": "приходить"
+        "Translation": "приходить",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sitzen",
-        "Translation": "сидеть"
+        "Translation": "сидеть",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "tanzen",
-        "Translation": "танцевать"
+        "Translation": "танцевать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gehen",
-        "Translation": "идти"
+        "Translation": "идти",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "spielen",
-        "Translation": "играть"
+        "Translation": "играть",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "alt",
-        "Translation": "старый"
+        "Translation": "старый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "klein",
-        "Translation": "маленький, низкий [о людях]"
+        "Translation": "маленький, низкий [о людях]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "neu",
-        "Translation": "новый, новенький"
+        "Translation": "новый, новенький",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "groß",
-        "Translation": "большой, высокий [о людях]"
+        "Translation": "большой, высокий [о людях]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "jung",
-        "Translation": "молодой"
+        "Translation": "молодой",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schön",
-        "Translation": "красивый"
+        "Translation": "красивый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gut",
-        "Translation": "хороший"
+        "Translation": "хороший",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kurz",
-        "Translation": "короткий"
+        "Translation": "короткий",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schlecht",
-        "Translation": "плохой"
+        "Translation": "плохой",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "lang",
-        "Translation": "длинный"
+        "Translation": "длинный",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "normal",
-        "Translation": "нормальный"
+        "Translation": "нормальный",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "hoch",
-        "Translation": "высокий[о неодушевлённых предметах]"
+        "Translation": "высокий[о неодушевлённых предметах]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "aber",
-        "Translation": "но"
+        "Translation": "но",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "vor",
-        "Translation": "перед"
+        "Translation": "перед",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "oder",
-        "Translation": "или"
+        "Translation": "или",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zwischen",
-        "Translation": "между"
+        "Translation": "между",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "und",
-        "Translation": "и, а"
+        "Translation": "и, а",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "über",
-        "Translation": "о, над"
+        "Translation": "о, над",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ab",
-        "Translation": "от, начиная с"
+        "Translation": "от, начиная с",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "um",
-        "Translation": "вокруг"
+        "Translation": "вокруг",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "an",
-        "Translation": "у"
+        "Translation": "у",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ohne",
-        "Translation": "без"
+        "Translation": "без",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "aus",
-        "Translation": "из"
+        "Translation": "из",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "durch",
-        "Translation": "через, сквозь"
+        "Translation": "через, сквозь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "in",
-        "Translation": "в"
+        "Translation": "в",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "nach",
-        "Translation": "после"
+        "Translation": "после",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "auf",
-        "Translation": "на"
+        "Translation": "на",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zu",
-        "Translation": "к"
+        "Translation": "к",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "von",
-        "Translation": "от"
+        "Translation": "от",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "auch",
-        "Translation": "также, тоже"
+        "Translation": "также, тоже",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bis",
-        "Translation": "до"
+        "Translation": "до",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "dann",
-        "Translation": "тогда"
+        "Translation": "тогда",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "für",
-        "Translation": "за, для"
+        "Translation": "за, для",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "denn",
-        "Translation": "потому что"
+        "Translation": "потому что",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gegen",
-        "Translation": "против"
+        "Translation": "против",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "noch",
-        "Translation": "ещё"
+        "Translation": "ещё",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bei",
-        "Translation": "при, у"
+        "Translation": "при, у",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sehr",
-        "Translation": "очень"
+        "Translation": "очень",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "vielleicht",
-        "Translation": "может быть"
+        "Translation": "может быть",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "also",
-        "Translation": "итак"
+        "Translation": "итак",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "möglich",
-        "Translation": "возможно, реально, осуществимо"
+        "Translation": "возможно, реально, осуществимо",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "so",
-        "Translation": "так"
+        "Translation": "так",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "nur",
-        "Translation": "только"
+        "Translation": "только",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "lieber",
-        "Translation": "лучше, охотнее"
+        "Translation": "лучше, охотнее",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wunderbar",
-        "Translation": "чудесный, чудный"
+        "Translation": "чудесный, чудный",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "besser",
-        "Translation": "лучше"
+        "Translation": "лучше",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "nicht",
-        "Translation": "не[частица отрицания]"
+        "Translation": "не[частица отрицания]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "weiter",
-        "Translation": "дальше, продолжай"
+        "Translation": "дальше, продолжай",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "nichts",
-        "Translation": "ничего, ничто"
+        "Translation": "ничего, ничто",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "leider",
-        "Translation": "к сожалению"
+        "Translation": "к сожалению",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Wetter, —",
-        "Translation": "погода"
+        "Translation": "погода",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Regen, —",
-        "Translation": "дождь"
+        "Translation": "дождь",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Grad, -e",
-        "Translation": "градус[температура, наклон]"
+        "Translation": "градус[температура, наклон]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "See, -n",
-        "Translation": "озеро"
+        "Translation": "озеро",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "klar",
-        "Translation": "ясно[о погоде или «понятно»]"
+        "Translation": "ясно[о погоде или «понятно»]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Meer, -e",
-        "Translation": "море"
+        "Translation": "море",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Sonne, -n",
-        "Translation": "солнце"
+        "Translation": "солнце",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Feuer, —",
-        "Translation": "огонь"
+        "Translation": "огонь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "scheinen",
-        "Translation": "светить[о Солнце]"
+        "Translation": "светить[о Солнце]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Baum, -¨e",
-        "Translation": "дерево"
+        "Translation": "дерево",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Wind, -e",
-        "Translation": "ветер"
+        "Translation": "ветер",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Blume, -n",
-        "Translation": "цветок"
+        "Translation": "цветок",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "regnen",
-        "Translation": "идёт дождь"
+        "Translation": "идёт дождь",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Kind, -er",
-        "Translation": "ребёнок"
+        "Translation": "ребёнок",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "männlich",
-        "Translation": "мужественный, мужской"
+        "Translation": "мужественный, мужской",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Junge, -n",
-        "Translation": "мальчик"
+        "Translation": "мальчик",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Frau, -en",
-        "Translation": "женщина, госпожа[вежливое обращение]"
+        "Translation": "женщина, госпожа[вежливое обращение]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Mädchen, —",
-        "Translation": "девочка"
+        "Translation": "девочка",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Dame, -n",
-        "Translation": "дама"
+        "Translation": "дама",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Jugendliche, -n",
-        "Translation": "молодой человек, девушка[не зависит от пола]"
+        "Translation": "молодой человек, девушка[не зависит от пола]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "weiblich",
-        "Translation": "женственный, женский"
+        "Translation": "женственный, женский",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Erwachsene, -n",
-        "Translation": "взрослый"
+        "Translation": "взрослый",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Mensch, -en",
-        "Translation": "человек"
+        "Translation": "человек",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Herr, -en",
-        "Translation": "мужчина, господин[вежливое обращение]"
+        "Translation": "мужчина, господин[вежливое обращение]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Leute",
-        "Translation": "люди"
+        "Translation": "люди",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Mann, -¨er",
-        "Translation": "мужчина"
+        "Translation": "мужчина",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "international",
-        "Translation": "интернациональный"
+        "Translation": "интернациональный",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Gruß, -¨e",
-        "Translation": "приветствие"
+        "Translation": "приветствие",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bitten",
-        "Translation": "просить"
+        "Translation": "просить",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "",
-        "Translation": "представлять-ся"
+        "Translation": "представлять(ся",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Bitte, -n",
-        "Translation": "просьба"
+        "Translation": "просьба",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sagen",
-        "Translation": "сказать, говорить"
+        "Translation": "сказать, говорить",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "danken",
-        "Translation": "благодарить"
+        "Translation": "благодарить",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sprechen",
-        "Translation": "говорить, беседовать"
+        "Translation": "говорить, беседовать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Dank",
-        "Translation": "благодарность"
+        "Translation": "благодарность",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fragen",
-        "Translation": "спрашивать"
+        "Translation": "спрашивать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "",
-        "Translation": "извинять-ся"
+        "Translation": "извинять(ся",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Frage, -n",
-        "Translation": "вопрос"
+        "Translation": "вопрос",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Entschuldigung, -en",
-        "Translation": "извинение"
+        "Translation": "извинение",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "antworten",
-        "Translation": "отвечать"
+        "Translation": "отвечать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "helfen",
-        "Translation": "помогать"
+        "Translation": "помогать",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Antwort, -en",
-        "Translation": "ответ"
+        "Translation": "ответ",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Hilfe, -n",
-        "Translation": "помощь"
+        "Translation": "помощь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "erzählen",
-        "Translation": "рассказывать"
+        "Translation": "рассказывать",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Telefon, -e",
-        "Translation": "телефон"
+        "Translation": "телефон",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "telefonieren",
-        "Translation": "говорить по телефону"
+        "Translation": "говорить по телефону",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Handy, -s",
-        "Translation": "мобильный телефон"
+        "Translation": "мобильный телефон",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wiederholen",
-        "Translation": "повторять"
+        "Translation": "повторять",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "anrufen",
-        "Translation": "звонить кому-либо по телефону"
+        "Translation": "звонить кому-либо по телефону",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "verstehen",
-        "Translation": "понимать"
+        "Translation": "понимать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Anruf, -e",
-        "Translation": "телефонный звонок"
+        "Translation": "телефонный звонок",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "buchstabieren",
-        "Translation": "диктовать по буквам"
+        "Translation": "диктовать по буквам",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Anrufbeantworter, —",
-        "Translation": "автоответчик"
+        "Translation": "автоответчик",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "hören",
-        "Translation": "слышать"
+        "Translation": "слышать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "glauben",
-        "Translation": "верить, считать[иметь мнение]"
+        "Translation": "верить, считать[иметь мнение]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sehen",
-        "Translation": "смотреть, видеть"
+        "Translation": "смотреть, видеть",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "lustig",
-        "Translation": "весёлый"
+        "Translation": "весёлый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schmecken",
-        "Translation": "чувствовать вкус, быть на вкус"
+        "Translation": "чувствовать вкус, быть на вкус",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zufrieden",
-        "Translation": "довольный"
+        "Translation": "довольный",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "riechen",
-        "Translation": "чувствовать запах, пахнуть"
+        "Translation": "чувствовать запах, пахнуть",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ruhig",
-        "Translation": "спокойный"
+        "Translation": "спокойный",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "",
-        "Translation": "радовать-ся"
+        "Translation": "радовать(ся",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "böse",
-        "Translation": "злой"
+        "Translation": "злой",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "lachen",
-        "Translation": "смеяться"
+        "Translation": "смеяться",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "müde",
-        "Translation": "усталый"
+        "Translation": "усталый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gefallen",
-        "Translation": "нравиться"
+        "Translation": "нравиться",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "glücklich",
-        "Translation": "счастливый"
+        "Translation": "счастливый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "mögen",
-        "Translation": "испытывать симпатию, любить[неодушевлённые вещи]"
+        "Translation": "испытывать симпатию, любить[неодушевлённые вещи]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Glück",
-        "Translation": "счастье"
+        "Translation": "счастье",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "lieben",
-        "Translation": "любить"
+        "Translation": "любить",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "heiraten",
-        "Translation": "жениться, выходить замуж"
+        "Translation": "жениться, выходить замуж",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Tochter, -¨",
-        "Translation": "дочь"
+        "Translation": "дочь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "sich kümmern",
-        "Translation": "заботиться, позаботиться"
+        "Translation": "заботиться, позаботиться",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Bruder, -¨",
-        "Translation": "брат"
+        "Translation": "брат",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Familie, -n",
-        "Translation": "семья"
+        "Translation": "семья",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Schwester, -n",
-        "Translation": "сестра"
+        "Translation": "сестра",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Ehefrau, -en",
-        "Translation": "жена"
+        "Translation": "жена",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Verwandte, -en",
-        "Translation": "родственник"
+        "Translation": "родственник",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Ehemann, -¨er",
-        "Translation": "Муж"
+        "Translation": "Муж",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Geschwister",
-        "Translation": "братья и сёстры"
+        "Translation": "братья и сёстры",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Partner, —",
-        "Translation": "Партнёр"
+        "Translation": "Партнёр",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Großeltern",
-        "Translation": "бабушки и дедушки"
+        "Translation": "бабушки и дедушки",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Mutter, -¨er",
-        "Translation": "мама"
+        "Translation": "мама",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Großmutter, -¨",
-        "Translation": "бабушка"
+        "Translation": "бабушка",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Vater, -¨er",
-        "Translation": "отец"
+        "Translation": "отец",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Großvater, -¨",
-        "Translation": "дедушка"
+        "Translation": "дедушка",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Eltern",
-        "Translation": "родители"
+        "Translation": "родители",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Oma, -s",
-        "Translation": "бабушка[разговорное]"
+        "Translation": "бабушка[разговорное]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Baby, -s",
-        "Translation": "младенец"
+        "Translation": "младенец",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Opa, -s",
-        "Translation": "дедушка[разговорное]"
+        "Translation": "дедушка[разговорное]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Sohn, -¨e",
-        "Translation": "сын"
+        "Translation": "сын",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Hund, -e",
-        "Translation": "собака"
+        "Translation": "собака",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fremd",
-        "Translation": "чужой"
+        "Translation": "чужой",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "beide",
-        "Translation": "оба/обе"
+        "Translation": "оба/обе",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kennen",
-        "Translation": "знать, быть знакомым"
+        "Translation": "знать, быть знакомым",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "",
-        "Translation": "встречать-ся"
+        "Translation": "встречать(ся",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kennenlernen",
-        "Translation": "знакомиться"
+        "Translation": "знакомиться",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "warten",
-        "Translation": "ждать"
+        "Translation": "ждать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bekannt",
-        "Translation": "известный"
+        "Translation": "известный",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "besuchen",
-        "Translation": "посещать[обычно человека]"
+        "Translation": "посещать[обычно человека]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Bekannte, -n",
-        "Translation": "знакомый"
+        "Translation": "знакомый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bleiben",
-        "Translation": "оставаться"
+        "Translation": "оставаться",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Freund, -e",
-        "Translation": "друг"
+        "Translation": "друг",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "übernachten",
-        "Translation": "переночевать"
+        "Translation": "переночевать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gleich",
-        "Translation": "одинаковый, похожий"
+        "Translation": "одинаковый, похожий",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "mitbringen",
-        "Translation": "приносить с собой"
+        "Translation": "приносить с собой",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "allein",
-        "Translation": "один/одна, в одиночку"
+        "Translation": "один/одна, в одиночку",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "mitkommen",
-        "Translation": "прийти вместе с кем-либо"
+        "Translation": "прийти вместе с кем-либо",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zusammen",
-        "Translation": "вместе"
+        "Translation": "вместе",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "mitmachen",
-        "Translation": "делать что-то вместе с кем-то"
+        "Translation": "делать что-то вместе с кем-то",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Party, -s",
-        "Translation": "вечеринка"
+        "Translation": "вечеринка",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "mitnehmen",
-        "Translation": "взять с собой"
+        "Translation": "взять с собой",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Disco, -s",
-        "Translation": "дискотека"
+        "Translation": "дискотека",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gratulieren",
-        "Translation": "поздравлять"
+        "Translation": "поздравлять",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Hochzeit, -en",
-        "Translation": "свадьба"
+        "Translation": "свадьба",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Glückwunsch, -¨e",
-        "Translation": "пожелание счастья, пожелание к празднику"
+        "Translation": "пожелание счастья, пожелание к празднику",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Einladung, -en",
-        "Translation": "приглашение"
+        "Translation": "приглашение",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "herzlich",
-        "Translation": "сердечно, от всего сердца"
+        "Translation": "сердечно, от всего сердца",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "einladen",
-        "Translation": "приглашать"
+        "Translation": "приглашать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "feiern",
-        "Translation": "праздновать"
+        "Translation": "праздновать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Gast, -¨e",
-        "Translation": "гость"
+        "Translation": "гость",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "grillen",
-        "Translation": "жарить гриль"
+        "Translation": "жарить гриль",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Geschenk, -e",
-        "Translation": "подарок"
+        "Translation": "подарок",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Hunger",
-        "Translation": "голод"
+        "Translation": "голод",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "trinken",
-        "Translation": "пить"
+        "Translation": "пить",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Durst",
-        "Translation": "жажда"
+        "Translation": "жажда",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bitter",
-        "Translation": "горький"
+        "Translation": "горький",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Appetit",
-        "Translation": "аппетит"
+        "Translation": "аппетит",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "frühstücken",
-        "Translation": "завтракать"
+        "Translation": "завтракать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kochen",
-        "Translation": "готовить, варить"
+        "Translation": "готовить, варить",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Frühstück, -e",
-        "Translation": "завтрак"
+        "Translation": "завтрак",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "essen",
-        "Translation": "есть, кушать"
+        "Translation": "есть, кушать",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Glas, -¨er",
-        "Translation": "стакан, стекло"
+        "Translation": "стакан, стекло",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Essen, —",
-        "Translation": "еда"
+        "Translation": "еда",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Flasche, -n",
-        "Translation": "бутылка"
+        "Translation": "бутылка",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Bäckerei, -en",
-        "Translation": "пекарня"
+        "Translation": "пекарня",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Restaurant, -s",
-        "Translation": "ресторан"
+        "Translation": "ресторан",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Café, -s",
-        "Translation": "кафе"
+        "Translation": "кафе",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Speisekarte, -n",
-        "Translation": "меню[в кафе, ресторане]"
+        "Translation": "меню[в кафе, ресторане]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Lokal, -e",
-        "Translation": "кафе, забегаловка"
+        "Translation": "кафе, забегаловка",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Lebensmittel, —",
-        "Translation": "продукты питания"
+        "Translation": "продукты питания",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Butter",
-        "Translation": "сливочное масло"
+        "Translation": "сливочное масло",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Fisch, -e",
-        "Translation": "рыба[как вид мяса только в единственном числе]"
+        "Translation": "рыба[как вид мяса только в единственном числе]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Ei, -er",
-        "Translation": "яйцо"
+        "Translation": "яйцо",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Fleisch",
-        "Translation": "мясо"
+        "Translation": "мясо",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Brot, -e",
-        "Translation": "хлеб"
+        "Translation": "хлеб",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Hähnchen, —",
-        "Translation": "курица[сырая или готовая]"
+        "Translation": "курица[сырая или готовая]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Brötchen, —",
-        "Translation": "булочка"
+        "Translation": "булочка",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Schinken, —",
-        "Translation": "ветчина"
+        "Translation": "ветчина",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kuchen, —",
-        "Translation": "пирог"
+        "Translation": "пирог",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Öl, -e",
-        "Translation": "масло[растительное, моторное]"
+        "Translation": "масло[растительное, моторное]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Pommes frites",
-        "Translation": "картошка фри"
+        "Translation": "картошка фри",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Salz, -e",
-        "Translation": "соль"
+        "Translation": "соль",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Reis, -e",
-        "Translation": "рис"
+        "Translation": "рис",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Obst",
-        "Translation": "фрукты"
+        "Translation": "фрукты",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Gemüse, —",
-        "Translation": "овощи"
+        "Translation": "овощи",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Apfel, -¨",
-        "Translation": "яблоко"
+        "Translation": "яблоко",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Kartoffel, -n",
-        "Translation": "картофель"
+        "Translation": "картофель",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Banane, -n",
-        "Translation": "банан"
+        "Translation": "банан",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Salat, -e",
-        "Translation": "салат"
+        "Translation": "салат",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Birne, -n",
-        "Translation": "груша"
+        "Translation": "груша",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Tomate, -n",
-        "Translation": "помидор"
+        "Translation": "помидор",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Getränk, -e",
-        "Translation": "напиток"
+        "Translation": "напиток",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Saft, -¨e",
-        "Translation": "сок"
+        "Translation": "сок",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Tee, -s",
-        "Translation": "чай"
+        "Translation": "чай",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Wasser, -¨",
-        "Translation": "вода"
+        "Translation": "вода",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kaffee, -s",
-        "Translation": "кофе"
+        "Translation": "кофе",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Bier, -e",
-        "Translation": "пиво"
+        "Translation": "пиво",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Milch, -en",
-        "Translation": "молоко"
+        "Translation": "молоко",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Wein, -e",
-        "Translation": "вино"
+        "Translation": "вино",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Anzeige, -n",
-        "Translation": "объявление [на бумаге], заявление [в полицию]"
+        "Translation": "объявление [на бумаге], заявление [в полицию]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "mieten",
-        "Translation": "снимать жильё"
+        "Translation": "снимать жильё",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wohnen",
-        "Translation": "жить"
+        "Translation": "жить",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Miete, -n",
-        "Translation": "арендная плата"
+        "Translation": "арендная плата",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Wohnung, -en",
-        "Translation": "квартира"
+        "Translation": "квартира",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "vermieten",
-        "Translation": "сдавать"
+        "Translation": "сдавать",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Apartment, -s",
-        "Translation": "апартаменты"
+        "Translation": "апартаменты",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Vermieter, —",
-        "Translation": "арендодатель"
+        "Translation": "арендодатель",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Haus, die Häuser",
-        "Translation": "дом"
+        "Translation": "дом",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "umziehen",
-        "Translation": "переезжать"
+        "Translation": "переезжать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Eingang, -¨e",
-        "Translation": "вход"
+        "Translation": "вход",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Dusche, -n",
-        "Translation": "душ"
+        "Translation": "душ",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Ausgang, -¨e",
-        "Translation": "выход"
+        "Translation": "выход",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Balkon, -e",
-        "Translation": "балкон"
+        "Translation": "балкон",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Halle, -n",
-        "Translation": "зал"
+        "Translation": "зал",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Küche, -n",
-        "Translation": "кухня"
+        "Translation": "кухня",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Stock, -¨e",
-        "Translation": "этаж"
+        "Translation": "этаж",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Toilette, -n",
-        "Translation": "туалет"
+        "Translation": "туалет",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Aufzug, -¨e",
-        "Translation": "лифт"
+        "Translation": "лифт",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "hell",
-        "Translation": "светлый, светло"
+        "Translation": "светлый, светло",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Treppe, -n",
-        "Translation": "лестница"
+        "Translation": "лестница",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "breit",
-        "Translation": "широкий, широко"
+        "Translation": "широкий, широко",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Ecke, -n",
-        "Translation": "угол"
+        "Translation": "угол",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kaputt",
-        "Translation": "сломанный"
+        "Translation": "сломанный",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Raum, -¨e",
-        "Translation": "комната, помещение"
+        "Translation": "комната, помещение",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "reparieren",
-        "Translation": "чинить"
+        "Translation": "чинить",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Zimmer, —",
-        "Translation": "комната[в квартире, отеле]"
+        "Translation": "комната[в квартире, отеле]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Reparatur, -en",
-        "Translation": "починка, ремонт"
+        "Translation": "починка, ремонт",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Farbe, -n",
-        "Translation": "краска, цвет"
+        "Translation": "краска, цвет",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Anschluss, -¨e",
-        "Translation": "подключение"
+        "Translation": "подключение",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Bad, -¨er",
-        "Translation": "ванна"
+        "Translation": "ванна",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Möbel",
-        "Translation": "мебель"
+        "Translation": "мебель",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Schlüssel, —",
-        "Translation": "ключ"
+        "Translation": "ключ",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Bett, -en",
-        "Translation": "кровать"
+        "Translation": "кровать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Schrank, -¨e",
-        "Translation": "шкаф"
+        "Translation": "шкаф",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Sofa, -s",
-        "Translation": "диван"
+        "Translation": "диван",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kühlschrank, -¨e",
-        "Translation": "холодильник"
+        "Translation": "холодильник",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Tisch, -e",
-        "Translation": "стол"
+        "Translation": "стол",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Herd, -e",
-        "Translation": "кухонная плита"
+        "Translation": "кухонная плита",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Bild, -er",
-        "Translation": "картина"
+        "Translation": "картина",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Licht, -er",
-        "Translation": "свет"
+        "Translation": "свет",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Uhr, -en",
-        "Translation": "часы"
+        "Translation": "часы",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "machen",
-        "Translation": "делать"
+        "Translation": "делать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "öffnen",
-        "Translation": "открывать"
+        "Translation": "открывать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ausmachen",
-        "Translation": "выключать"
+        "Translation": "выключать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schließen",
-        "Translation": "закрывать"
+        "Translation": "закрывать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "anmachen",
-        "Translation": "включать"
+        "Translation": "включать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bringen",
-        "Translation": "приносить, перемещать"
+        "Translation": "приносить, перемещать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "tun",
-        "Translation": "поступать, делать"
+        "Translation": "поступать, делать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "holen",
-        "Translation": "приносить, доставать"
+        "Translation": "приносить, доставать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "suchen",
-        "Translation": "искать"
+        "Translation": "искать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "geben",
-        "Translation": "давать"
+        "Translation": "давать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "finden",
-        "Translation": "находить"
+        "Translation": "находить",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "stellen",
-        "Translation": "ставить"
+        "Translation": "ставить",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "nehmen",
-        "Translation": "брать"
+        "Translation": "брать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "legen",
-        "Translation": "класть"
+        "Translation": "класть",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "halten",
-        "Translation": "держать"
+        "Translation": "держать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "beginnen",
-        "Translation": "начинать"
+        "Translation": "начинать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "benutzen",
-        "Translation": "использовать, применять"
+        "Translation": "использовать, применять",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "aufhören",
-        "Translation": "прекращать"
+        "Translation": "прекращать",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Hobby, -s",
-        "Translation": "хобби"
+        "Translation": "хобби",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Kino, -s",
-        "Translation": "кинотеатр"
+        "Translation": "кинотеатр",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wandern",
-        "Translation": "ходить в поход, гулять в лесу"
+        "Translation": "ходить в поход, гулять в лесу",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "lesen",
-        "Translation": "читать"
+        "Translation": "читать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Garten, -¨",
-        "Translation": "сад"
+        "Translation": "сад",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Buch, -¨er",
-        "Translation": "книга"
+        "Translation": "книга",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kulturell",
-        "Translation": "культурный[связанный в культурой]"
+        "Translation": "культурный[связанный в культурой]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Zeitung, -en",
-        "Translation": "газета"
+        "Translation": "газета",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Lied, -er",
-        "Translation": "песня"
+        "Translation": "песня",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fernsehen",
-        "Translation": "смотреть телевизор"
+        "Translation": "смотреть телевизор",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "rauchen",
-        "Translation": "курить"
+        "Translation": "курить",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Film, -e",
-        "Translation": "фильм"
+        "Translation": "фильм",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Zigarette, -n",
-        "Translation": "сигарета"
+        "Translation": "сигарета",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Sport, -e",
-        "Translation": "спорт"
+        "Translation": "спорт",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schwimmen",
-        "Translation": "плавать"
+        "Translation": "плавать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Verein, -e",
-        "Translation": "объединение, общество"
+        "Translation": "объединение, общество",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Schwimmbad, -¨er",
-        "Translation": "бассейн"
+        "Translation": "бассейн",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Fußball, -¨e",
-        "Translation": "футбол [Sn.], футбольный мяч"
+        "Translation": "футбол [Sn.], футбольный мяч",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gewinnen",
-        "Translation": "выигрывать"
+        "Translation": "выигрывать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Bogen, —",
-        "Translation": "дуга, лук[оружие]"
+        "Translation": "дуга, лук[оружие]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Laden, -¨",
-        "Translation": "магазин"
+        "Translation": "магазин",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "günstig",
-        "Translation": "выгодный по цене, недорогой"
+        "Translation": "выгодный по цене, недорогой",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Geschäft, -e",
-        "Translation": "бизнес, магазин"
+        "Translation": "бизнес, магазин",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "billig",
-        "Translation": "дешёвый, дешево"
+        "Translation": "дешёвый, дешево",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kiosk, -e",
-        "Translation": "киоск"
+        "Translation": "киоск",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "teuer",
-        "Translation": "дорогой"
+        "Translation": "дорогой",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "geöffnet",
-        "Translation": "открыто, открытый"
+        "Translation": "открыто, открытый",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bestellen",
-        "Translation": "заказывать"
+        "Translation": "заказывать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "geschlossen",
-        "Translation": "закрыто, закрытый"
+        "Translation": "закрыто, закрытый",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Kasse, -n",
-        "Translation": "касса"
+        "Translation": "касса",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "anbieten",
-        "Translation": "предлагать"
+        "Translation": "предлагать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zahlen",
-        "Translation": "платить"
+        "Translation": "платить",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Angebot, -e",
-        "Translation": "предложение"
+        "Translation": "предложение",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bezahlen",
-        "Translation": "оплачивать"
+        "Translation": "оплачивать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Prospekt, -e",
-        "Translation": "проспект[улица, рекламка]"
+        "Translation": "проспект[улица, рекламка]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Tasche, -n",
-        "Translation": "сумка"
+        "Translation": "сумка",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kaufen",
-        "Translation": "покупать"
+        "Translation": "покупать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "empfehlen",
-        "Translation": "рекомендовать"
+        "Translation": "рекомендовать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "einkaufen",
-        "Translation": "делать покупки"
+        "Translation": "делать покупки",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Größe, -n",
-        "Translation": "размер"
+        "Translation": "размер",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "verkaufen",
-        "Translation": "продавать"
+        "Translation": "продавать",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Jacke, -n",
-        "Translation": "куртка"
+        "Translation": "куртка",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Verkäufer, —",
-        "Translation": "продавец"
+        "Translation": "продавец",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Kleidung, -en",
-        "Translation": "одежда"
+        "Translation": "одежда",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "kosten",
-        "Translation": "стоить"
+        "Translation": "стоить",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Schuh, -e",
-        "Translation": "ботинок"
+        "Translation": "ботинок",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Preis, -e",
-        "Translation": "цена"
+        "Translation": "цена",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Heimat, -en",
-        "Translation": "родина"
+        "Translation": "родина",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Ausländer, —",
-        "Translation": "иностранец"
+        "Translation": "иностранец",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "reisen",
-        "Translation": "путешествовать"
+        "Translation": "путешествовать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ausländisch",
-        "Translation": "иностранный"
+        "Translation": "иностранный",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Reise, -n",
-        "Translation": "путешествие"
+        "Translation": "путешествие",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Hotel, -s",
-        "Translation": "отель"
+        "Translation": "отель",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Reisebüro, -s",
-        "Translation": "бюро путешествий"
+        "Translation": "бюро путешествий",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Rezeption, -en",
-        "Translation": "рецепция"
+        "Translation": "рецепция",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Reiseführer, —",
-        "Translation": "гид[человек, книга]"
+        "Translation": "гид[человек, книга]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Doppelzimmer, —",
-        "Translation": "комната на двоих в отеле"
+        "Translation": "комната на двоих в отеле",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Koffer, —",
-        "Translation": "чемодан"
+        "Translation": "чемодан",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Einzelzimmer",
-        "Translation": "комната на одного в отеле"
+        "Translation": "комната на одного в отеле",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Gepäck",
-        "Translation": "багаж"
+        "Translation": "багаж",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Halbpension",
-        "Translation": "полупансион[в отеле, санатории]"
+        "Translation": "полупансион[в отеле, санатории]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "abfahren",
-        "Translation": "выезжать, отъезжать, отправляться"
+        "Translation": "выезжать, отъезжать, отправляться",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Karte, -n",
-        "Translation": "карта"
+        "Translation": "карта",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Abfahrt, -en",
-        "Translation": "отправление, отъезд"
+        "Translation": "отправление, отъезд",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Ausflug, -¨e",
-        "Translation": "экскурсия, поездка с целью развлечения"
+        "Translation": "экскурсия, поездка с целью развлечения",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "abfliegen",
-        "Translation": "вылетать[например, на самолёте]"
+        "Translation": "вылетать[например, на самолёте]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Plan, -¨e",
-        "Translation": "план"
+        "Translation": "план",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Abflug, -¨e",
-        "Translation": "вылет"
+        "Translation": "вылет",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "eilig",
-        "Translation": "спешный, спешно"
+        "Translation": "спешный, спешно",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ankommen",
-        "Translation": "прибывать, приезжать"
+        "Translation": "прибывать, приезжать",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Eile",
-        "Translation": "спешка"
+        "Translation": "спешка",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Ankunft, -¨e",
-        "Translation": "прибытие"
+        "Translation": "прибытие",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Sehenswürdigkeit, -en",
-        "Translation": "достопримечательность"
+        "Translation": "достопримечательность",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Ausland",
-        "Translation": "заграница"
+        "Translation": "заграница",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "besichtigen",
-        "Translation": "посещать[место, достопримечательность]"
+        "Translation": "посещать[место, достопримечательность]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Auto, -s",
-        "Translation": "машина"
+        "Translation": "машина",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Fahrrad, -¨er",
-        "Translation": "велосипед"
+        "Translation": "велосипед",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Autobahn, -en",
-        "Translation": "скоростная трасса"
+        "Translation": "скоростная трасса",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "Rad fahren",
-        "Translation": "ехать на велосипеде"
+        "Translation": "ехать на велосипеде",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Taxi, -s",
-        "Translation": "такси"
+        "Translation": "такси",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Lkw, -s",
-        "Translation": "грузовик"
+        "Translation": "грузовик",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Fahrer, —",
-        "Translation": "водитель"
+        "Translation": "водитель",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Fahrkarte, -n",
-        "Translation": "проездной билет"
+        "Translation": "проездной билет",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Bus, -¨e",
-        "Translation": "автобус"
+        "Translation": "автобус",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Ticket, -s",
-        "Translation": "билет[проездной, на мероприятие]"
+        "Translation": "билет[проездной, на мероприятие]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Haltestelle, -n",
-        "Translation": "остановка общественного транспорта"
+        "Translation": "остановка общественного транспорта",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "einsteigen",
-        "Translation": "входить, садиться[в транспорт]"
+        "Translation": "входить, садиться[в транспорт]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Bahn, -en",
-        "Translation": "железная дорога"
+        "Translation": "железная дорога",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "aussteigen",
-        "Translation": "выходить[из транспорта, «игры»]"
+        "Translation": "выходить[из транспорта, «игры»]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "S-Bahn, -en",
-        "Translation": "пригородная электричка в германии"
+        "Translation": "пригородная электричка в германии",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "frei",
-        "Translation": "свободно, свободный"
+        "Translation": "свободно, свободный",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Straßenbahn, -en",
-        "Translation": "трамвай"
+        "Translation": "трамвай",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "besetzt",
-        "Translation": "занято"
+        "Translation": "занято",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Zug, -¨e",
-        "Translation": "поезд"
+        "Translation": "поезд",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "langsam",
-        "Translation": "медленный"
+        "Translation": "медленный",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Bahnhof, -¨e",
-        "Translation": "вокзал"
+        "Translation": "вокзал",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schnell",
-        "Translation": "быстрый"
+        "Translation": "быстрый",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Bahnsteig, -e",
-        "Translation": "железнодорожная платформа"
+        "Translation": "железнодорожная платформа",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Automat, -e",
-        "Translation": "автомат[устройство]"
+        "Translation": "автомат[устройство]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Gleis, -e",
-        "Translation": "железнодорожный путь"
+        "Translation": "железнодорожный путь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "automatisch",
-        "Translation": "автоматически"
+        "Translation": "автоматически",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Flugzeug, -e",
-        "Translation": "самолёт"
+        "Translation": "самолёт",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Maschine, -n",
-        "Translation": "механизм, станок"
+        "Translation": "механизм, станок",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Flughafen, -¨",
-        "Translation": "аэропорт"
+        "Translation": "аэропорт",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Schild, -er",
-        "Translation": "знак [дорожный], щит, вывеска, табличка"
+        "Translation": "знак [дорожный], щит, вывеска, табличка",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kopf, -¨e",
-        "Translation": "голова"
+        "Translation": "голова",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "aussehen",
-        "Translation": "выглядеть"
+        "Translation": "выглядеть",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Arm, -e",
-        "Translation": "рука"
+        "Translation": "рука",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "",
-        "Translation": "одевать-ся"
+        "Translation": "одевать(ся",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Hand, -¨e",
-        "Translation": "ладонь"
+        "Translation": "ладонь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "",
-        "Translation": "раздевать-ся"
+        "Translation": "раздевать(ся",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Bein, -e",
-        "Translation": "нога"
+        "Translation": "нога",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "baden",
-        "Translation": "принимать ванну, купаться"
+        "Translation": "принимать ванну, купаться",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Fuß, -¨e",
-        "Translation": "стопа"
+        "Translation": "стопа",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "",
-        "Translation": "мыть-ся в душе"
+        "Translation": "мыть(ся в душе",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Bauch, -¨e",
-        "Translation": "живот"
+        "Translation": "живот",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "",
-        "Translation": "мыть-ся"
+        "Translation": "мыть(ся",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Haar, -¨e",
-        "Translation": "волос"
+        "Translation": "волос",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "krank",
-        "Translation": "больной"
+        "Translation": "больной",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Mund, -¨er",
-        "Translation": "рот"
+        "Translation": "рот",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "weh tun",
-        "Translation": "делать больно"
+        "Translation": "делать больно",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Auge, -n",
-        "Translation": "глаз"
+        "Translation": "глаз",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Fieber, —",
-        "Translation": "жар[температура]"
+        "Translation": "жар[температура]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Blick, -e",
-        "Translation": "взгляд"
+        "Translation": "взгляд",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Arzt, -¨e",
-        "Translation": "врач"
+        "Translation": "врач",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Gewicht, -e",
-        "Translation": "вес"
+        "Translation": "вес",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Doktor, -en",
-        "Translation": "доктор[врач, кандидат наук]"
+        "Translation": "доктор[врач, кандидат наук]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "geboren",
-        "Translation": "рожден-а"
+        "Translation": "рожден(а",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gestorben",
-        "Translation": "умер-ла"
+        "Translation": "умер(ла",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "leben",
-        "Translation": "жить"
+        "Translation": "жить",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "tot",
-        "Translation": "мёртвый"
+        "Translation": "мёртвый",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Leben, —",
-        "Translation": "жизнь"
+        "Translation": "жизнь",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kindergarten, -¨",
-        "Translation": "детский сад"
+        "Translation": "детский сад",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Hausaufgabe, -n",
-        "Translation": "домашнее задание"
+        "Translation": "домашнее задание",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "laut",
-        "Translation": "громкий, громко"
+        "Translation": "громкий, громко",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Test, -e",
-        "Translation": "тест"
+        "Translation": "тест",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "leise",
-        "Translation": "тихий, тихо"
+        "Translation": "тихий, тихо",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Prüfung, -en",
-        "Translation": "экзамен"
+        "Translation": "экзамен",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "lernen",
-        "Translation": "учить [что-нибудь], учиться"
+        "Translation": "учить [что-нибудь], учиться",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Bleistift, -e",
-        "Translation": "простой карандаш"
+        "Translation": "простой карандаш",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Schule, -n",
-        "Translation": "школа"
+        "Translation": "школа",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kugelschreiber, —",
-        "Translation": "шариковая ручка"
+        "Translation": "шариковая ручка",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Klasse, -n",
-        "Translation": "класс"
+        "Translation": "класс",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Papier, -e",
-        "Translation": "бумага, документ"
+        "Translation": "бумага, документ",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Schüler, —",
-        "Translation": "ученик"
+        "Translation": "ученик",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schreiben",
-        "Translation": "писать"
+        "Translation": "писать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Lehrer, —",
-        "Translation": "учитель"
+        "Translation": "учитель",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wissen",
-        "Translation": "знать"
+        "Translation": "знать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "studieren",
-        "Translation": "учиться в вузе"
+        "Translation": "учиться в вузе",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "leicht",
-        "Translation": "лёгкий, легко"
+        "Translation": "лёгкий, легко",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Studium, die Studien",
-        "Translation": "учёба в вузе"
+        "Translation": "учёба в вузе",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "einfach",
-        "Translation": "простой, просто"
+        "Translation": "простой, просто",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Gruppe, -n",
-        "Translation": "группа"
+        "Translation": "группа",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schwer",
-        "Translation": "тяжёлый, тяжело"
+        "Translation": "тяжёлый, тяжело",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Student, -en",
-        "Translation": "студент"
+        "Translation": "студент",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Lösung, -en",
-        "Translation": "решение, ответ [к задаче]"
+        "Translation": "решение, ответ [к задаче]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Unterricht, -e",
-        "Translation": "занятие"
+        "Translation": "занятие",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fertig",
-        "Translation": "готовый, готово"
+        "Translation": "готовый, готово",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Pause, -n",
-        "Translation": "пауза, перерыв"
+        "Translation": "пауза, перерыв",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Ergebnis, -se",
-        "Translation": "результат"
+        "Translation": "результат",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Thema, die Themen",
-        "Translation": "тема"
+        "Translation": "тема",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "richtig",
-        "Translation": "правильный, правильно"
+        "Translation": "правильный, правильно",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Information, -en",
-        "Translation": "информация"
+        "Translation": "информация",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "falsch",
-        "Translation": "неправильный, неправильно"
+        "Translation": "неправильный, неправильно",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Beispiel, -e",
-        "Translation": "пример"
+        "Translation": "пример",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Fehler, —",
-        "Translation": "ошибка"
+        "Translation": "ошибка",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "zum Beispiel",
-        "Translation": "например"
+        "Translation": "например",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "fehlen",
-        "Translation": "отсутствовать"
+        "Translation": "отсутствовать",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "erklären",
-        "Translation": "объяснять"
+        "Translation": "объяснять",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Praktikum, die Praktika",
-        "Translation": "практика [после учёбы]"
+        "Translation": "практика [после учёбы]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Aufgabe, -n",
-        "Translation": "задание"
+        "Translation": "задание",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kurs, -e",
-        "Translation": "курс[дополнительное образование, направление движения]"
+        "Translation": "курс[дополнительное образование, направление движения]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Buchstabe, -n",
-        "Translation": "буква"
+        "Translation": "буква",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Sprache, -n",
-        "Translation": "язык[немецкий, английский и т. д.]"
+        "Translation": "язык[немецкий, английский и т. д.]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Wort, -¨er",
-        "Translation": "слово"
+        "Translation": "слово",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Aussage, -n",
-        "Translation": "высказывание"
+        "Translation": "высказывание",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Satz, -¨e",
-        "Translation": "предложение"
+        "Translation": "предложение",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bedeuten",
-        "Translation": "означать, значить"
+        "Translation": "означать, значить",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Text, -e",
-        "Translation": "текст"
+        "Translation": "текст",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Beruf, -e",
-        "Translation": "профессия"
+        "Translation": "профессия",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Chef, -s",
-        "Translation": "шеф"
+        "Translation": "шеф",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "arbeiten",
-        "Translation": "работать"
+        "Translation": "работать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kollege, -n",
-        "Translation": "коллега"
+        "Translation": "коллега",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Arbeit, -en",
-        "Translation": "работа"
+        "Translation": "работа",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Kunde, -n",
-        "Translation": "клиент"
+        "Translation": "клиент",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Job, -s",
-        "Translation": "работа[чаще ручной или несложный труд]"
+        "Translation": "работа[чаще ручной или несложный труд]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Anrede, -n",
-        "Translation": "обращение, официальная речь"
+        "Translation": "обращение, официальная речь",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "arbeitslos",
-        "Translation": "безработный"
+        "Translation": "безработный",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Ansage, -n",
-        "Translation": "объявление, оповещение о чём-либо"
+        "Translation": "объявление, оповещение о чём-либо",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Firma, die Firmen",
-        "Translation": "фирма"
+        "Translation": "фирма",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Durchsage, -n",
-        "Translation": "объявление[через громкоговоритель, аудио-систему]"
+        "Translation": "объявление[через громкоговоритель, аудио-систему]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "selbstständig",
-        "Translation": "самостоятельный, самозанятый"
+        "Translation": "самостоятельный, самозанятый",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Gespräch, -e",
-        "Translation": "разговор"
+        "Translation": "разговор",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Praxis, die Praxen",
-        "Translation": "врачебный кабинет[личный, для\n                        врача-предпринимателя]"
+        "Translation": "врачебный кабинет[личный, для\n                        врача-предпринимателя]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Problem, -e",
-        "Translation": "проблема"
+        "Translation": "проблема",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Hausfrau, -en",
-        "Translation": "домохозяйка"
+        "Translation": "домохозяйка",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "wichtig",
-        "Translation": "важный"
+        "Translation": "важный",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Hausmann, -¨er",
-        "Translation": "домохозяин"
+        "Translation": "домохозяин",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Schluss, -¨e",
-        "Translation": "конец, завершение"
+        "Translation": "конец, завершение",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Arbeitsplatz, -¨e",
-        "Translation": "рабочее место"
+        "Translation": "рабочее место",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Urlaub, -e",
-        "Translation": "отпуск"
+        "Translation": "отпуск",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Stelle, -n",
-        "Translation": "место, позиция, должность"
+        "Translation": "место, позиция, должность",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "verdienen",
-        "Translation": "зарабатывать"
+        "Translation": "зарабатывать",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Führung, -en",
-        "Translation": "управление, руководство"
+        "Translation": "управление, руководство",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Computer, -s",
-        "Translation": "компьютер"
+        "Translation": "компьютер",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "drucken",
-        "Translation": "печатать"
+        "Translation": "печатать",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Internet",
-        "Translation": "интернет"
+        "Translation": "интернет",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "drücken",
-        "Translation": "нажимать"
+        "Translation": "нажимать",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Fax, -e",
-        "Translation": "факс"
+        "Translation": "факс",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "anklicken",
-        "Translation": "кликнуть мышкой[на объект, ссылку]"
+        "Translation": "кликнуть мышкой[на объект, ссылку]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Drucker, —",
-        "Translation": "принтер"
+        "Translation": "принтер",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "CD, -s",
-        "Translation": "компакт-диск"
+        "Translation": "компакт-диск",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Eintritt, -e",
-        "Translation": "вступление [в организацию, партию], вход [на\n                        мероприятие]"
+        "Translation": "вступление [в организацию, партию], вход [на\n                        мероприятие]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Zoll, -¨e",
-        "Translation": "таможня"
+        "Translation": "таможня",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Termin, -e",
-        "Translation": "запись на время[к врачу, чиновнику]"
+        "Translation": "запись на время[к врачу, чиновнику]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Polizei, -en",
-        "Translation": "полиция"
+        "Translation": "полиция",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Schalter, —",
-        "Translation": "переключатель, окошко [в гос.органах, банке]"
+        "Translation": "переключатель, окошко [в гос.органах, банке]",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Ausweis, -e",
-        "Translation": "документ, удостоверяющий личность[id-карта]"
+        "Translation": "документ, удостоверяющий личность[id-карта]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "pünktlich",
-        "Translation": "вовремя"
+        "Translation": "вовремя",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Pass, -¨e",
-        "Translation": "паспорт"
+        "Translation": "паспорт",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Nummer, -n",
-        "Translation": "номер[число]"
+        "Translation": "номер[число]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Papiere",
-        "Translation": "документы"
+        "Translation": "документы",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "",
-        "Translation": "зарегистрировать-ся, записать-ся"
+        "Translation": "зарегистрировать(ся, записать(ся",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "gültig",
-        "Translation": "действительный, актуальный"
+        "Translation": "действительный, актуальный",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Anmeldung, -en",
-        "Translation": "регистрация"
+        "Translation": "регистрация",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Ordnung, -en",
-        "Translation": "порядок"
+        "Translation": "порядок",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Auskunft, -¨e",
-        "Translation": "выписка, справка"
+        "Translation": "выписка, справка",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "erlauben",
-        "Translation": "разрешать"
+        "Translation": "разрешать",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Foto, -s",
-        "Translation": "фото"
+        "Translation": "фото",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "verboten",
-        "Translation": "запрещать, запрещено"
+        "Translation": "запрещать, запрещено",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Beamte, -n",
-        "Translation": "госслужащий"
+        "Translation": "госслужащий",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Formular, -e",
-        "Translation": "формуляр"
+        "Translation": "формуляр",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Geburtsort, -e",
-        "Translation": "место рождения"
+        "Translation": "место рождения",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ausfüllen",
-        "Translation": "заполнять[документ, анкету]"
+        "Translation": "заполнять[документ, анкету]",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Alter, —",
-        "Translation": "возраст"
+        "Translation": "возраст",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ankreuzen",
-        "Translation": "отметить крестиком"
+        "Translation": "отметить крестиком",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Familienstand, -¨e",
-        "Translation": "семейное положение"
+        "Translation": "семейное положение",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Name, -n",
-        "Translation": "имя, название"
+        "Translation": "имя, название",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "ledig",
-        "Translation": "холостой"
+        "Translation": "холостой",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Vorname, -n",
-        "Translation": "имя"
+        "Translation": "имя",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "verheiratet",
-        "Translation": "женат, замужем"
+        "Translation": "женат, замужем",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Familienname, -n",
-        "Translation": "фамилия"
+        "Translation": "фамилия",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "unterschreiben",
-        "Translation": "подписывать"
+        "Translation": "подписывать",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Geburtsjahr, -e",
-        "Translation": "год рождения"
+        "Translation": "год рождения",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Unterschrift, -en",
-        "Translation": "подпись"
+        "Translation": "подпись",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Geburtstag",
-        "Translation": "день рождения"
+        "Translation": "день рождения",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Bank, -¨e",
-        "Translation": "скамья"
+        "Translation": "скамья",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Konto, die Konten",
-        "Translation": "счёт[в банке]"
+        "Translation": "счёт[в банке]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Bank, -en",
-        "Translation": "банк"
+        "Translation": "банк",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Kreditkarte, -n",
-        "Translation": "кредитная карта"
+        "Translation": "кредитная карта",
+        "Level": "A1"
     },
     {
         "Artikel": "das",
         "Word": "Geld, -er",
-        "Translation": "деньги"
+        "Translation": "деньги",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Rechnung, -en",
-        "Translation": "счёт[квитанция на оплату]"
+        "Translation": "счёт[квитанция на оплату]",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "bar",
-        "Translation": "наличные"
+        "Translation": "наличные",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "überweisen",
-        "Translation": "переводить[деньги, пациента от врача к врачу]"
+        "Translation": "переводить[деньги, пациента от врача к врачу]",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Post, -en",
-        "Translation": "почта"
+        "Translation": "почта",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Postleitzahl, -en",
-        "Translation": "почтовый индекс"
+        "Translation": "почтовый индекс",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Brief, -e",
-        "Translation": "письмо"
+        "Translation": "письмо",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "abgeben",
-        "Translation": "отдавать"
+        "Translation": "отдавать",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Briefmarke, -n",
-        "Translation": "почтовая марка"
+        "Translation": "почтовая марка",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "schicken",
-        "Translation": "отправлять, посылать"
+        "Translation": "отправлять, посылать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Absender, —",
-        "Translation": "отправитель"
+        "Translation": "отправитель",
+        "Level": "A1"
     },
     {
         "Artikel": "",
         "Word": "abholen",
-        "Translation": "забирать"
+        "Translation": "забирать",
+        "Level": "A1"
     },
     {
         "Artikel": "der",
         "Word": "Empfänger, —",
-        "Translation": "получатель, адресат"
+        "Translation": "получатель, адресат",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Vorwahl, -en",
-        "Translation": "телефонный код"
+        "Translation": "телефонный код",
+        "Level": "A1"
     },
     {
         "Artikel": "die",
         "Word": "Adresse, -n",
-        "Translation": "адрес"
+        "Translation": "адрес",
+        "Level": "A1"
     }
 ]

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DDD</string>
+    <string name="correct">Правильно!</string>
+    <string name="incorrect">Неправильно. Правильный ответ: %1$s %2$s - %3$s</string>
 </resources>

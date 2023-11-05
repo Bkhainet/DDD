@@ -29,6 +29,14 @@
         android:gravity="center"
         android:layout_marginBottom="24dp"
         android:visibility="gone" /> <!-- Скрыт по умолчанию -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="0"
+        android:max="100" />
+
 
     <!-- Увеличенный RadioGroup с горизонтальной ориентацией для артиклей -->
     <RadioGroup
