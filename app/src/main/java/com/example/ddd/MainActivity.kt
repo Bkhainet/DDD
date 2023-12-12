@@ -26,6 +26,13 @@ class MainActivity : AppCompatActivity() {
     private var selectedLevel = "A1"
     private var currentWord: WordEntry? = null // Определение переменной для текущего слова
 
+    /////////
+    companion object {
+        private const val PREFS_NAME = "DDDPrefs"
+        // ... другие константы ...
+    }
+    /////////
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -36,7 +43,12 @@ class MainActivity : AppCompatActivity() {
 
         setupUI()
         handleIntent(intent) // Обработка Intent
+        //loadWordsForLevel(selectedLevel) // OLD
+
+        ///////////
+        selectedLevel = intent.getStringExtra("SelectedLevel") ?: "A1"
         loadWordsForLevel(selectedLevel)
+        ///////////
     }
 
     private fun setupUI() {
@@ -108,6 +120,7 @@ class MainActivity : AppCompatActivity() {
             currentWordTextView.setTextColor(ContextCompat.getColor(this@MainActivity, if (isCorrect) R.color.correct_answer else R.color.wrong_answer))
         }
         completedWordsCount++
+        saveLevelProgress(selectedLevel, completedWordsCount) //SharedPreferenc
         updateProgressBar()
     }
 
@@ -154,14 +167,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun loadWordsForLevel(level: String) {
-        lifecycleScope.launch {
-            totalWordsCount = viewModel.getCountOfLevelWords(level)
-            binding.progressBar.max = totalWordsCount
-            updateProgressBar()
-            setRandomWord(level)
-        }
-    }
+//    private fun loadWordsForLevel(level: String) {
+//        lifecycleScope.launch {
+//            totalWordsCount = viewModel.getCountOfLevelWords(level) /// OLD
+//            binding.progressBar.max = totalWordsCount
+//            updateProgressBar()
+//            setRandomWord(level)
+//        }
+//    }
 
 //    override fun onPause() {
 //        super.onPause()
@@ -173,5 +186,31 @@ class MainActivity : AppCompatActivity() {
             handler.removeCallbacks(runnable)
         }
         super.onDestroy()
+    }
+    //////////////////////////////////////////////////////////////////// SharedPreferences
+    private fun saveLevelProgress(level: String, progress: Int) {
+        val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+        sharedPrefs.edit().apply {
+            putInt("progress_$level", progress)
+            apply()
+        }
+    }
+    private fun loadLevelProgress(level: String): Int {
+        val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+        return sharedPrefs.getInt("progress_$level", 0)
+    }
+    private fun loadWordsForLevel(level: String) {
+        lifecycleScope.launch {
+            completedWordsCount = loadLevelProgress(level)
+            totalWordsCount = viewModel.getCountOfLevelWords(level)
+            binding.progressBar.max = totalWordsCount
+            updateProgressBar()
+            setRandomWord(level)
+        }
+    }
+    override fun onBackPressed() {
+        val intent = Intent(this, LevelSelectionActivity::class.java)
+        startActivity(intent)
+        finish() // Если вы хотите завершить MainActivity
     }
 }
