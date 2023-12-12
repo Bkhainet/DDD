@@ -1,12 +1,9 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp"
-    android:background="#FAFAFA"
-    tools:context=".MainActivity">
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <!-- TextView для отображения текущего слова с крупным шрифтом и высоким контрастом -->
     <TextView
@@ -74,8 +71,7 @@
             android:textSize="24sp"
             android:padding="16dp" />
     </RadioGroup>
-
-    <!-- Кнопки перевода с большим текстом и отступами -->
+        <!-- Кнопки перевода с большим текстом и отступами -->
     <Button
         android:id="@+id/translationOption1"
         android:layout_width="match_parent"
@@ -111,4 +107,7 @@
         android:textSize="24sp"
         android:padding="16dp" />
 
-</LinearLayout>
+
+
+    </LinearLayout>
+</layout>
