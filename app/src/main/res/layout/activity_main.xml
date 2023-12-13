@@ -5,34 +5,44 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <!-- TextView для отображения текущего слова с крупным шрифтом и высоким контрастом -->
-    <TextView
-        android:id="@+id/currentWordTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Word"
-        android:textSize="32sp"
-        android:textColor="#000000"
-        android:gravity="center"
-        android:layout_marginBottom="24dp" />
+        <!-- TextView для отображения прогресса -->
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Прогресс: 0 из 100"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
 
-    <!-- TextView для отображения результата проверки -->
-    <TextView
-        android:id="@+id/resultTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="28sp"
-        android:gravity="center"
-        android:layout_marginBottom="24dp"
-        android:visibility="gone" /> <!-- Скрыт по умолчанию -->
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:progress="0"
-        android:max="100" />
+        <!-- ProgressBar для визуального отображения прогресса -->
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="28sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone" /> <!-- Скрыт по умолчанию -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:max="100" />
+
+        <!-- Ваши существующие элементы UI... -->
+        <TextView
+            android:id="@+id/currentWordTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Word"
+            android:textSize="32sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
 
 
     <!-- Увеличенный RadioGroup с горизонтальной ориентацией для артиклей -->
