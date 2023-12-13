@@ -63,9 +63,10 @@ class DatabaseHelper(private val context: Context) :
         count == 0
     }
 
-    private suspend fun readWordsFromJson(): List<WordEntry> = withContext(Dispatchers.IO) {
+    private fun readWordsFromJson(): List<WordEntry> {
+        // Чтение JSON файла
         val jsonString = context.assets.open("german_words_with_articles.json").bufferedReader().use { it.readText() }
-        Json.decodeFromString(jsonString)
+        return Json.decodeFromString(jsonString)
     }
 
     @SuppressLint("Range")
@@ -110,5 +111,15 @@ class DatabaseHelper(private val context: Context) :
             // db.close() // Это не нужно здесь
         }
     }
-
+    suspend fun initializeDatabase() = withContext(Dispatchers.IO) {
+        Log.d("DatabaseHelper", "Проверка наличия данных в БД")
+        if (isDatabaseEmpty(this@DatabaseHelper.writableDatabase)) {
+            Log.d("DatabaseHelper", "БД пуста, начинается инициализация")
+            val initialWords = readWordsFromJson()
+            insertWordsIntoDatabase(this@DatabaseHelper.writableDatabase, initialWords)
+            Log.d("DatabaseHelper", "БД успешно инициализирована")
+        } else {
+            Log.d("DatabaseHelper", "БД уже инициализирована")
+        }
+    }
 }
