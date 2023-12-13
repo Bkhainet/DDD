@@ -1,18 +1,26 @@
 package com.example.ddd
 
+import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 
 
-class DatabaseHelper(private val context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
+class DatabaseHelper(private val context: Context) :
+    SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION), CoroutineScope {
+
+    override val coroutineContext = Dispatchers.IO
 
     companion object {
-        private const val DATABASE_VERSION = 3
+        private const val DATABASE_VERSION = 4
         private const val DATABASE_NAME = "WordsDatabase"
         internal const val TABLE_WORDS = "Words"
 
@@ -25,6 +33,7 @@ class DatabaseHelper(private val context: Context) : SQLiteOpenHelper(context, D
     }
 
     override fun onCreate(db: SQLiteDatabase) {
+
         val createWordsTable = ("CREATE TABLE $TABLE_WORDS (" +
                 "$KEY_ID INTEGER PRIMARY KEY," +
                 "$KEY_ARTIKEL TEXT," +
@@ -33,9 +42,12 @@ class DatabaseHelper(private val context: Context) : SQLiteOpenHelper(context, D
                 "$KEY_LEVEL TEXT," +
                 "$KEY_IS_USED INTEGER DEFAULT 0)")
         db.execSQL(createWordsTable)
-        if (isDatabaseEmpty(db)) { // Передаем объект базы данных в метод
-            val initialWords = readWordsFromJson() // Используем сохраненный контекст
-            insertWordsIntoDatabase(db, initialWords) // Передаем объект базы данных в метод
+
+        launch {
+            if (isDatabaseEmpty(db)) {
+                val initialWords = readWordsFromJson()
+                insertWordsIntoDatabase(db, initialWords)
+            }
         }
     }
 
@@ -44,8 +56,40 @@ class DatabaseHelper(private val context: Context) : SQLiteOpenHelper(context, D
         onCreate(db)
     }
 
+    private suspend fun isDatabaseEmpty(db: SQLiteDatabase): Boolean = withContext(Dispatchers.IO) {
+        val cursor = db.rawQuery("SELECT COUNT(*) FROM $TABLE_WORDS", null)
+        val count = if (cursor.moveToFirst()) cursor.getInt(0) else 0
+        cursor.close()
+        count == 0
+    }
 
-    private fun insertWordsIntoDatabase(db: SQLiteDatabase, words: List<WordEntry>) {
+    private suspend fun readWordsFromJson(): List<WordEntry> = withContext(Dispatchers.IO) {
+        val jsonString = context.assets.open("german_words_with_articles.json").bufferedReader().use { it.readText() }
+        Json.decodeFromString(jsonString)
+    }
+
+    @SuppressLint("Range")
+    fun getWordByWordText(wordText: String): WordEntry? {
+        val db = this.readableDatabase
+        val cursor = db.query(TABLE_WORDS, null, "$KEY_WORD = ?", arrayOf(wordText), null, null, null)
+        var wordEntry: WordEntry? = null
+
+        if (cursor.moveToFirst()) {
+            val artikel = cursor.getString(cursor.getColumnIndex(KEY_ARTIKEL))
+            val word = cursor.getString(cursor.getColumnIndex(KEY_WORD))
+            val translation = cursor.getString(cursor.getColumnIndex(KEY_TRANSLATION))
+            val level = cursor.getString(cursor.getColumnIndex(KEY_LEVEL))
+            wordEntry = WordEntry(artikel, word, translation, level)
+            Log.d("DatabaseHelper", "Слово найдено: $word")
+        } else {
+            Log.d("DatabaseHelper", "Слово не найдено: $wordText")
+        }
+
+        cursor.close()
+        return wordEntry
+    }
+
+    private suspend fun insertWordsIntoDatabase(db: SQLiteDatabase, words: List<WordEntry>) = withContext(Dispatchers.IO) {
         Log.d("DatabaseHelper", "Inserting words into database")
         db.beginTransaction()
         try {
@@ -63,24 +107,8 @@ class DatabaseHelper(private val context: Context) : SQLiteOpenHelper(context, D
             Log.e("DatabaseHelper", "Error inserting words into database", e)
         } finally {
             db.endTransaction()
-            //db.close()
+            // db.close() // Это не нужно здесь
         }
-    }
-
-
-    private fun isDatabaseEmpty(db: SQLiteDatabase): Boolean {
-        // Измените определение метода, чтобы он принимал объект базы данных
-        val cursor = db.rawQuery("SELECT COUNT(*) FROM $TABLE_WORDS", null)
-        val count = if (cursor.moveToFirst()) cursor.getInt(0) else 0
-        cursor.close()
-        return count == 0
-    }
-
-
-    private fun readWordsFromJson(): List<WordEntry> {
-        // Чтение и десериализация JSON из assets, используя сохранённый context
-        val jsonString = context.assets.open("german_words_with_articles.json").bufferedReader().use { it.readText() }
-        return Json.decodeFromString(jsonString)
     }
 
 }

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.RadioButton
@@ -13,7 +14,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import com.example.ddd.databinding.ActivityMainBinding
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,30 +28,32 @@ class MainActivity : AppCompatActivity() {
     private var completedWordsCount = 0
     private var selectedLevel = "A1"
     private var currentWord: WordEntry? = null // Определение переменной для текущего слова
+    private lateinit var dbHelper: DatabaseHelper
+    private var stateRestored = false
+    private var isStateRestored = false
 
-    /////////
+
     companion object {
-        private const val PREFS_NAME = "DDDPrefs"
-        // ... другие константы ...
+        private const val PREFS_NAME = "MyAppSettings"
+        private const val KEY_CURRENT_WORD = "current_word"
+        private const val KEY_CURRENT_LEVEL = "current_level"
+        private const val KEY_COMPLETED_COUNT = "completed_count"
     }
-    /////////
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val dbHelper = DatabaseHelper(this)
+        dbHelper = DatabaseHelper(this)
+
         val viewModelFactory = MainViewModelFactory(dbHelper)
         viewModel = ViewModelProvider(this, viewModelFactory).get(MainViewModel::class.java)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         setupUI()
         handleIntent(intent) // Обработка Intent
-        //loadWordsForLevel(selectedLevel) // OLD
 
-        ///////////
         selectedLevel = intent.getStringExtra("SelectedLevel") ?: "A1"
         loadWordsForLevel(selectedLevel)
-        ///////////
     }
 
     private fun setupUI() {
@@ -64,26 +69,32 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setRandomWord(level: String) {
-        lifecycleScope.launch {
-            viewModel.getRandomWord(level)?.let { word ->
-                currentWord = word // Установка текущего слова
-                updateUIWithCurrentWord(word)
+        if (currentWord == null) { // Добавлена проверка, чтобы избежать перезаписи восстановленного слова
+            lifecycleScope.launch {
+                viewModel.getRandomWord(level)?.let { word ->
+                    currentWord = word
+                    updateUIWithCurrentWord(word)
+                }
             }
+            Log.d("MainActivity", "Вызов setRandomWord")
         }
     }
 
     private fun updateUIWithCurrentWord(word: WordEntry) {
-        binding.apply {
-            currentWordTextView.text = word.Word
-            articleRadioGroup.clearCheck()
-            currentWordTextView.setTextColor(ContextCompat.getColor(this@MainActivity, R.color.default_text_color))
+        // Убедитесь, что этот код запускается на главном потоке
+        runOnUiThread {
+            binding.apply {
+                currentWordTextView.text = word.Word
+                articleRadioGroup.clearCheck()
+                currentWordTextView.setTextColor(ContextCompat.getColor(this@MainActivity, R.color.default_text_color))
 
-            val isArticleNeeded = word.Artikel?.isNotBlank() ?: false
-            derRadioButton.visibility = if (isArticleNeeded) View.VISIBLE else View.GONE
-            dieRadioButton.visibility = if (isArticleNeeded) View.VISIBLE else View.GONE
-            dasRadioButton.visibility = if (isArticleNeeded) View.VISIBLE else View.GONE
+                val isArticleNeeded = word.Artikel?.isNotBlank() ?: false
+                derRadioButton.visibility = if (isArticleNeeded) View.VISIBLE else View.GONE
+                dieRadioButton.visibility = if (isArticleNeeded) View.VISIBLE else View.GONE
+                dasRadioButton.visibility = if (isArticleNeeded) View.VISIBLE else View.GONE
 
-            showTranslationOptions(word)
+                showTranslationOptions(word)
+            }
         }
     }
 
@@ -100,17 +111,25 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     private fun checkTranslation(clickedButton: Button, word: WordEntry) {
         val userTranslation = clickedButton.text.toString()
         val selectedArticleId = binding.articleRadioGroup.checkedRadioButtonId
         val selectedArticle = if (selectedArticleId != -1) findViewById<RadioButton>(selectedArticleId).text.toString() else ""
 
-        if (checkAnswer(selectedArticle, userTranslation, word)) {
-            updateAnswerUI(true)
-        } else {
-            updateAnswerUI(false)
+        val isCorrect = checkAnswer(selectedArticle, userTranslation, word) // Проверка правильности ответа
+        updateAnswerUI(isCorrect) // Обновление UI в зависимости от правильности ответа
+
+        if (isCorrect) {
+            completedWordsCount++
+            saveLevelProgress(selectedLevel, completedWordsCount) // Сохранение прогресса
+            updateProgressBar()
         }
         prepareForNextWord()
+    }
+
+    private fun checkAnswer(selectedArticle: String, selectedTranslation: String, word: WordEntry): Boolean {
+        return selectedArticle == word.Artikel && selectedTranslation == word.Translation
     }
 
     private fun updateAnswerUI(isCorrect: Boolean) {
@@ -122,10 +141,6 @@ class MainActivity : AppCompatActivity() {
         completedWordsCount++
         saveLevelProgress(selectedLevel, completedWordsCount) //SharedPreferenc
         updateProgressBar()
-    }
-
-    private fun checkAnswer(selectedArticle: String, selectedTranslation: String, word: WordEntry): Boolean {
-        return selectedArticle == word.Artikel && selectedTranslation == word.Translation
     }
 
     private fun updateProgressBar() {
@@ -167,26 +182,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-//    private fun loadWordsForLevel(level: String) {
-//        lifecycleScope.launch {
-//            totalWordsCount = viewModel.getCountOfLevelWords(level) /// OLD
-//            binding.progressBar.max = totalWordsCount
-//            updateProgressBar()
-//            setRandomWord(level)
-//        }
-//    }
-
-//    override fun onPause() {
-//        super.onPause()
-//        // Никаких действий не выполняется при приостановке
-//    }
-
-    override fun onDestroy() {
-        if (::runnable.isInitialized) {
-            handler.removeCallbacks(runnable)
-        }
-        super.onDestroy()
-    }
     //////////////////////////////////////////////////////////////////// SharedPreferences
     private fun saveLevelProgress(level: String, progress: Int) {
         val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
@@ -212,5 +207,60 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, LevelSelectionActivity::class.java)
         startActivity(intent)
         finish() // Если вы хотите завершить MainActivity
+    }
+
+    // Метод для сохранения текущего состояния в SharedPreferences.
+    private fun saveCurrentState() {
+        val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+        sharedPrefs.edit().apply {
+            putString(KEY_CURRENT_WORD, currentWord?.Word)
+            putString(KEY_CURRENT_LEVEL, selectedLevel)
+            putInt(KEY_COMPLETED_COUNT, completedWordsCount)
+            apply()
+        }
+        Log.d("MainActivity", "Сохранено: уровень = $selectedLevel, слово = ${currentWord?.Word}, прогресс = $completedWordsCount")
+    }
+
+    // Метод для восстановления сохраненного состояния.
+    private fun restoreState() {
+        val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+        selectedLevel = sharedPrefs.getString(KEY_CURRENT_LEVEL, "A1") ?: "A1"
+        val savedWordText = sharedPrefs.getString(KEY_CURRENT_WORD, null)
+        completedWordsCount = sharedPrefs.getInt(KEY_COMPLETED_COUNT, 0)
+
+        if (savedWordText != null) {
+            lifecycleScope.launch {
+                currentWord = dbHelper.getWordByWordText(savedWordText)
+                currentWord?.let {
+                    updateUIWithCurrentWord(it)
+                    Log.d("MainActivity", "Состояние успешно восстановлено: $it")
+                }
+            }
+        } else {
+            setRandomWord(selectedLevel)
+        }
+
+        Log.d("MainActivity", "Попытка восстановить состояние: уровень = $selectedLevel, сохраненное слово = $savedWordText, прогресс = $completedWordsCount")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        // Если состояние уже восстановлено, не нужно загружать новое случайное слово
+        if (!stateRestored) {
+            restoreState()
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        saveCurrentState() // Сохраняем состояние при приостановке активности
+        stateRestored = false // Сбрасываем флаг восстановления состояния
+    }
+
+    override fun onDestroy() {
+        if (::runnable.isInitialized) {
+            handler.removeCallbacks(runnable)
+        }
+        super.onDestroy()
     }
 }
