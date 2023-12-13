@@ -212,21 +212,26 @@ class MainActivity : AppCompatActivity() {
     // Метод для сохранения текущего состояния в SharedPreferences.
     private fun saveCurrentState() {
         val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+        val levelKeyWord = "${KEY_CURRENT_WORD}_$selectedLevel"
+        val levelKeyCount = "${KEY_COMPLETED_COUNT}_$selectedLevel"
+
         sharedPrefs.edit().apply {
-            putString(KEY_CURRENT_WORD, currentWord?.Word)
-            putString(KEY_CURRENT_LEVEL, selectedLevel)
-            putInt(KEY_COMPLETED_COUNT, completedWordsCount)
+            putString(levelKeyWord, currentWord?.Word)
+            putInt(levelKeyCount, completedWordsCount)
             apply()
         }
         Log.d("MainActivity", "Сохранено: уровень = $selectedLevel, слово = ${currentWord?.Word}, прогресс = $completedWordsCount")
     }
 
+
     // Метод для восстановления сохраненного состояния.
     private fun restoreState() {
         val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
-        selectedLevel = sharedPrefs.getString(KEY_CURRENT_LEVEL, "A1") ?: "A1"
-        val savedWordText = sharedPrefs.getString(KEY_CURRENT_WORD, null)
-        completedWordsCount = sharedPrefs.getInt(KEY_COMPLETED_COUNT, 0)
+        val levelKeyWord = "${KEY_CURRENT_WORD}_$selectedLevel"
+        val levelKeyCount = "${KEY_COMPLETED_COUNT}_$selectedLevel"
+
+        val savedWordText = sharedPrefs.getString(levelKeyWord, null)
+        completedWordsCount = sharedPrefs.getInt(levelKeyCount, 0)
 
         if (savedWordText != null) {
             lifecycleScope.launch {
@@ -239,24 +244,20 @@ class MainActivity : AppCompatActivity() {
         } else {
             setRandomWord(selectedLevel)
         }
-
         Log.d("MainActivity", "Попытка восстановить состояние: уровень = $selectedLevel, сохраненное слово = $savedWordText, прогресс = $completedWordsCount")
     }
-
-    override fun onResume() {
-        super.onResume()
-        // Если состояние уже восстановлено, не нужно загружать новое случайное слово
-        if (!stateRestored) {
-            restoreState()
-        }
-    }
-
     override fun onPause() {
         super.onPause()
         saveCurrentState() // Сохраняем состояние при приостановке активности
         stateRestored = false // Сбрасываем флаг восстановления состояния
     }
-
+    override fun onResume() {
+        super.onResume()
+        if (!stateRestored) {
+            restoreState()
+            stateRestored = true
+        }
+    }
     override fun onDestroy() {
         if (::runnable.isInitialized) {
             handler.removeCallbacks(runnable)
