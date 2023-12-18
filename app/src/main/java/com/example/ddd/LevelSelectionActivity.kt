@@ -60,10 +60,11 @@ class LevelsAdapter(
     class LevelViewHolder(private val binding: LevelItemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(level: Level, onLevelSelected: (Level) -> Unit) {
             binding.levelName.text = level.name
-            binding.levelProgress.progress = level.progress
-            binding.levelProgressText.text = "${level.progress} из ${level.total} слов"
+            //binding.progressBar.progress = level.progress
+            //binding.levelProgressText.text = "${level.progress} из ${level.total} слов"
 
             itemView.setOnClickListener { onLevelSelected(level) }
         }
     }
 }
+
