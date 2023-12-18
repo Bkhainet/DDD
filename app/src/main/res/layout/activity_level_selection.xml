@@ -3,23 +3,33 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="16dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Выберите уровень"
                 android:layout_gravity="center"
-                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                android:text="Выберите уровень"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/buttonErrorCorrection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Работа над ошибками"
+                android:layout_margin="16dp"
+                android:padding="12dp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/levels_recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
