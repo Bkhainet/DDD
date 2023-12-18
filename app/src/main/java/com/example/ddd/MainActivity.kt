@@ -97,7 +97,6 @@ class MainActivity : AppCompatActivity() {
         //binding.levelTextView.text = "Уровень: $level"
     }
 
-    // В классе MainActivity
     private fun checkFirstLaunchAndInitializeDb() {
         val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
         if (sharedPrefs.getBoolean(KEY_FIRST_LAUNCH, true)) {
@@ -148,7 +147,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateUIWithCurrentWord(word: WordEntry) {
-        // Убедитесь, что этот код запускается на главном потоке
         runOnUiThread {
             binding.apply {
                 currentWordTextView.text = word.Word
