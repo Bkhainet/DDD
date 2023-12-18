@@ -20,7 +20,7 @@ class DatabaseHelper(private val context: Context) :
     override val coroutineContext = Dispatchers.IO
 
     companion object {
-        private const val DATABASE_VERSION = 4
+        private const val DATABASE_VERSION = 2
         private const val DATABASE_NAME = "WordsDatabase"
         internal const val TABLE_WORDS = "Words"
 
@@ -63,9 +63,10 @@ class DatabaseHelper(private val context: Context) :
         count == 0
     }
 
-    private suspend fun readWordsFromJson(): List<WordEntry> = withContext(Dispatchers.IO) {
+    private fun readWordsFromJson(): List<WordEntry> {
+        // Чтение JSON файла
         val jsonString = context.assets.open("german_words_with_articles.json").bufferedReader().use { it.readText() }
-        Json.decodeFromString(jsonString)
+        return Json.decodeFromString(jsonString)
     }
 
     @SuppressLint("Range")
@@ -90,25 +91,79 @@ class DatabaseHelper(private val context: Context) :
     }
 
     private suspend fun insertWordsIntoDatabase(db: SQLiteDatabase, words: List<WordEntry>) = withContext(Dispatchers.IO) {
-        Log.d("DatabaseHelper", "Inserting words into database")
+        Log.d("DatabaseHelper", "Начало вставки слов в базу данных")
         db.beginTransaction()
         try {
+            val existingWordsQuery = "SELECT COUNT(*) FROM $TABLE_WORDS WHERE $KEY_WORD = ?"
             for (word in words) {
-                val values = ContentValues().apply {
-                    put(KEY_ARTIKEL, word.Artikel)
-                    put(KEY_WORD, word.Word)
-                    put(KEY_TRANSLATION, word.Translation)
-                    put(KEY_LEVEL, word.Level)
+                // Проверка, существует ли уже слово в базе данных
+                val cursor = db.rawQuery(existingWordsQuery, arrayOf(word.Word))
+                val count = if (cursor.moveToFirst()) cursor.getInt(0) else 0
+                cursor.close()
+
+                if (count == 0) {
+                    // Если слова нет, вставляем его
+                    val values = ContentValues().apply {
+                        put(KEY_ARTIKEL, word.Artikel)
+                        put(KEY_WORD, word.Word)
+                        put(KEY_TRANSLATION, word.Translation)
+                        put(KEY_LEVEL, word.Level)
+                    }
+                    val insertResult = db.insert(TABLE_WORDS, null, values)
+                    Log.d("DatabaseHelper", "Слово '${word.Word}' вставлено с ID: $insertResult")
+                } else {
+                    Log.d("DatabaseHelper", "Слово '${word.Word}' уже существует в базе данных, вставка пропущена")
                 }
-                db.insert(TABLE_WORDS, null, values)
             }
             db.setTransactionSuccessful()
         } catch (e: Exception) {
-            Log.e("DatabaseHelper", "Error inserting words into database", e)
+            Log.e("DatabaseHelper", "Ошибка при вставке слов в базу данных", e)
         } finally {
             db.endTransaction()
-            // db.close() // Это не нужно здесь
+        }
+        Log.d("DatabaseHelper", "Завершение вставки слов в базу данных")
+    }
+
+    suspend fun initializeDatabase() = withContext(Dispatchers.IO) {
+        Log.d("DatabaseHelper", "Проверка наличия данных в БД")
+        if (isDatabaseEmpty(this@DatabaseHelper.writableDatabase)) {
+            Log.d("DatabaseHelper", "БД пуста, начинается инициализация")
+            val initialWords = readWordsFromJson()
+            insertWordsIntoDatabase(this@DatabaseHelper.writableDatabase, initialWords)
+            Log.d("DatabaseHelper", "БД успешно инициализирована")
+        } else {
+            Log.d("DatabaseHelper", "БД уже инициализирована")
         }
     }
 
+    suspend fun getCompletedWordsCount(level: String): Int = withContext(Dispatchers.IO) {
+        val db = this@DatabaseHelper.readableDatabase
+        db.rawQuery("SELECT COUNT(*) FROM $TABLE_WORDS WHERE $KEY_LEVEL = ? AND $KEY_IS_USED = 1", arrayOf(level)).use { cursor ->
+            if (cursor.moveToFirst()) {
+                return@withContext cursor.getInt(0)
+            }
+            return@withContext 0
+        }
+    }
+
+    suspend fun getTotalWordsCount(level: String): Int = withContext(Dispatchers.IO) {
+        val db = this@DatabaseHelper.readableDatabase
+        db.rawQuery("SELECT COUNT(*) FROM $TABLE_WORDS WHERE $KEY_LEVEL = ?", arrayOf(level)).use { cursor ->
+            if (cursor.moveToFirst()) {
+                return@withContext cursor.getInt(0)
+            }
+            return@withContext 0
+        }
+    }
+
+    fun resetWordsUsage(level: String) {
+        val db = this.writableDatabase
+        val contentValues = ContentValues()
+        contentValues.put(KEY_IS_USED, 0)
+        db.update(TABLE_WORDS, contentValues, "$KEY_LEVEL = ?", arrayOf(level))
+    }
+
+    fun initializeDatabaseAsync() = CoroutineScope(Dispatchers.IO).launch {
+        initializeDatabase()
+    }
 }

@@ -1,23 +1,67 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
     </data>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="8dp">-->
+<!--        <TextView-->
+<!--            android:id="@+id/levelName"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:textAppearance="?android:attr/textAppearanceListItem" />-->
+<!--&lt;!&ndash;        <ProgressBar&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/levelProgress"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="?android:attr/progressBarStyleHorizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="16dp" />&ndash;&gt;-->
+<!--        <ProgressBar-->
+<!--            android:id="@+id/progressBar"-->
+<!--            style="?android:attr/progressBarStyleHorizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:progress="0"-->
+<!--            android:max="100" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/levelProgressText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="8dp" />-->
+
+<!--    </LinearLayout>-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="8dp">
+
         <TextView
             android:id="@+id/levelName"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textAppearance="?android:attr/textAppearanceListItem" />
-        <ProgressBar
-            android:id="@+id/levelProgress"
-            style="?android:attr/progressBarStyleHorizontal"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:textSize="24sp"
+            android:gravity="center" />
+
+<!--        <ProgressBar-->
+<!--            android:id="@+id/progressBar"-->
+<!--            style="?android:attr/progressBarStyleHorizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginEnd="16dp" />-->
+
+        <TextView
+            android:id="@+id/levelProgressText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp" />
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
     </LinearLayout>
 </layout>

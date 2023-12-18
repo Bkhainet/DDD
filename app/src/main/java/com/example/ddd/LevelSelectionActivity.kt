@@ -19,10 +19,11 @@ class LevelSelectionActivity : AppCompatActivity() {
         binding = ActivityLevelSelectionBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Тестовые данные, замените на реальные данные из вашей базы данных
         val levels = listOf(
-            Level("A1", 30),
-            Level("A2", 50),
-            Level("B1", 70)
+            Level("A1", 30, 100),
+            Level("A2", 50, 100),
+            Level("B1", 70, 100)
         )
 
         binding.levelsRecyclerView.apply {
@@ -37,7 +38,7 @@ class LevelSelectionActivity : AppCompatActivity() {
     }
 }
 
-data class Level(val name: String, val progress: Int)
+data class Level(val name: String, val progress: Int, val total: Int)
 
 class LevelsAdapter(
     private val levels: List<Level>,
@@ -59,8 +60,11 @@ class LevelsAdapter(
     class LevelViewHolder(private val binding: LevelItemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(level: Level, onLevelSelected: (Level) -> Unit) {
             binding.levelName.text = level.name
-            binding.levelProgress.progress = level.progress
+            //binding.progressBar.progress = level.progress
+            //binding.levelProgressText.text = "${level.progress} из ${level.total} слов"
+
             itemView.setOnClickListener { onLevelSelected(level) }
         }
     }
 }
+
