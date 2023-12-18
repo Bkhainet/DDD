@@ -94,9 +94,6 @@ class MainActivity : AppCompatActivity() {
     private fun updateLevelAndProgressUI(level: String, progress: Int) {
         // Обновление ProgressBar с текущим прогрессом
         binding.progressBar.progress = progress
-
-        // Дополнительно, если у вас есть элемент для отображения уровня, можно обновить его
-        // Например, если у вас есть TextView для уровня:
         //binding.levelTextView.text = "Уровень: $level"
     }
 
@@ -181,24 +178,52 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+//    private fun checkTranslation(clickedButton: Button, word: WordEntry) {
+//        val userTranslation = clickedButton.text.toString()
+//        val isCorrect = word.Artikel?.let { artikel ->
+//            checkAnswer(artikel, userTranslation, word)
+//        } ?: false
+//
+//        updateAnswerUI(isCorrect)
+//
+//        if (isCorrect) {
+//            //completedWordsCount++
+//            saveLevelProgress(selectedLevel, completedWordsCount)
+//            updateProgressUI()
+//        }
+//        prepareForNextWord()
+//    }
     private fun checkTranslation(clickedButton: Button, word: WordEntry) {
+        val selectedArticle = when (binding.articleRadioGroup.checkedRadioButtonId) {
+            R.id.derRadioButton -> "der"
+            R.id.dieRadioButton -> "die"
+            R.id.dasRadioButton -> "das"
+            else -> ""
+        }
         val userTranslation = clickedButton.text.toString()
-        val isCorrect = word.Artikel?.let { artikel ->
-            checkAnswer(artikel, userTranslation, word)
-        } ?: false
+        val isCorrect = checkAnswer(selectedArticle, userTranslation, word)
 
         updateAnswerUI(isCorrect)
 
         if (isCorrect) {
-            //completedWordsCount++
+            completedWordsCount++
             saveLevelProgress(selectedLevel, completedWordsCount)
             updateProgressUI()
         }
         prepareForNextWord()
     }
 
+//    private fun checkAnswer(selectedArticle: String, selectedTranslation: String, word: WordEntry): Boolean {
+//        return selectedArticle == word.Artikel && selectedTranslation == word.Translation
+//    }
+
     private fun checkAnswer(selectedArticle: String, selectedTranslation: String, word: WordEntry): Boolean {
-        return selectedArticle == word.Artikel && selectedTranslation == word.Translation
+        // Проверяем, имеется ли артикль у слова
+        val correctArticle = word.Artikel ?: ""
+        // Проверяем, выбрал ли пользователь артикль (если он необходим)
+        val isArticleCorrect = correctArticle.isBlank() || correctArticle == selectedArticle
+        // Возвращаем true только если и артикль, и перевод правильные
+        return isArticleCorrect && word.Translation == selectedTranslation
     }
 
     private fun updateAnswerUI(isCorrect: Boolean) {
@@ -237,7 +262,7 @@ class MainActivity : AppCompatActivity() {
                 translationOption4.visibility = View.VISIBLE
                 resultTextView.visibility = View.GONE
             }
-        }, 3000) // Задержка в 3 секунды перед выбором нового слова
+        }, 2000) // Задержка в 3 секунды перед выбором нового слова
     }
 
     override fun onNewIntent(intent: Intent) {
@@ -279,7 +304,7 @@ class MainActivity : AppCompatActivity() {
     override fun onBackPressed() {
         val intent = Intent(this, LevelSelectionActivity::class.java)
         startActivity(intent)
-        finish() // Если вы хотите завершить MainActivity
+        finish()
     }
 
     // Метод для сохранения текущего состояния в SharedPreferences.
@@ -330,7 +355,6 @@ class MainActivity : AppCompatActivity() {
             restoreStateIfNeeded()
             stateRestored = true
         } else {
-            // Только в этом случае вызываем updateProgress
             updateProgress()
         }
     }
