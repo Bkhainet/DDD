@@ -30,6 +30,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var dbHelper: DatabaseHelper
     private var stateRestored = false
     private var isDbInitialized = false
+    private var isWordLoading = false
+
 
 
     companion object {
@@ -59,6 +61,13 @@ class MainActivity : AppCompatActivity() {
 
         checkFirstLaunchAndInitializeDb()
         setupUI()
+        if (isFirstLaunch()) {
+            lifecycleScope.launch {
+                updateProgress() // Вызов после инициализации БД
+            }
+        } else {
+            updateProgress() // Обновление прогресса если БД уже инициализирована
+        }
     }
 
     private fun restoreStateIfNeeded() {
@@ -73,14 +82,14 @@ class MainActivity : AppCompatActivity() {
                     currentWord?.let { word ->
                         updateUIWithCurrentWord(word)
                     } ?: setRandomWord(selectedLevel)
+                    updateProgress() // Обновление прогресса после восстановления состояния
                 }
             } ?: setRandomWord(selectedLevel)
             updateLevelAndProgressUI(selectedLevel, completedWordsCount)
-            Log.d("MainActivity", "restoreStateIfNeeded: Восстановление состояния.")
+            Log.d("MainActivity", "restoreStateIfNeeded: Восстановление состояния для уровня $selectedLevel: слово = ${currentWord?.Word}, прогресс = $completedWordsCount")
             stateRestored = true
         }
     }
-
 
     private fun updateLevelAndProgressUI(level: String, progress: Int) {
         // Обновление ProgressBar с текущим прогрессом
@@ -91,17 +100,19 @@ class MainActivity : AppCompatActivity() {
         //binding.levelTextView.text = "Уровень: $level"
     }
 
+    // В классе MainActivity
     private fun checkFirstLaunchAndInitializeDb() {
         val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
         if (sharedPrefs.getBoolean(KEY_FIRST_LAUNCH, true)) {
             lifecycleScope.launch {
-                dbHelper.initializeDatabase()
+                dbHelper.initializeDatabaseAsync().join() // Дождаться завершения инициализации
                 sharedPrefs.edit().putBoolean(KEY_FIRST_LAUNCH, false).apply()
                 isDbInitialized = true
-                restoreStateIfNeeded() // Вызов после инициализации БД
+                updateProgress()
             }
         } else {
             isDbInitialized = true
+            updateProgress()
         }
     }
 
@@ -118,16 +129,24 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setRandomWord(level: String) {
-        if (currentWord == null) {
-            Log.d("MainActivity", "setRandomWord: Текущее слово не установлено, загружаем новое слово.")
+        if (currentWord == null && !isWordLoading) {
+            Log.d("MainActivity", "setRandomWord: Загружаем новое слово.")
+            isWordLoading = true
             lifecycleScope.launch {
                 viewModel.getRandomWord(level)?.let { word ->
                     currentWord = word
                     updateUIWithCurrentWord(word)
-                } ?: Log.d("MainActivity", "Слово для уровня $level не найдено")
+                } ?: run {
+                    dbHelper.resetWordsUsage(level)
+                    viewModel.getRandomWord(level)?.let { newWord ->
+                        currentWord = newWord
+                        updateUIWithCurrentWord(newWord)
+                    }
+                }
+                isWordLoading = false
             }
         } else {
-            Log.d("MainActivity", "setRandomWord: Текущее слово уже установлено, пропускаем загрузку.")
+            Log.d("MainActivity", if (currentWord != null) "setRandomWord: Текущее слово уже установлено." else "setRandomWord: Загрузка слова уже идёт.")
         }
     }
 
@@ -171,13 +190,12 @@ class MainActivity : AppCompatActivity() {
         updateAnswerUI(isCorrect)
 
         if (isCorrect) {
-            completedWordsCount++
+            //completedWordsCount++
             saveLevelProgress(selectedLevel, completedWordsCount)
             updateProgressUI()
         }
         prepareForNextWord()
     }
-
 
     private fun checkAnswer(selectedArticle: String, selectedTranslation: String, word: WordEntry): Boolean {
         return selectedArticle == word.Artikel && selectedTranslation == word.Translation
@@ -189,8 +207,6 @@ class MainActivity : AppCompatActivity() {
             resultTextView.setTextColor(ContextCompat.getColor(this@MainActivity, if (isCorrect) R.color.correct_answer else R.color.wrong_answer))
             currentWordTextView.setTextColor(ContextCompat.getColor(this@MainActivity, if (isCorrect) R.color.correct_answer else R.color.wrong_answer))
         }
-        completedWordsCount++
-        //saveLevelProgress(selectedLevel, completedWordsCount) //SharedPreferenc
         updateProgressBar()
     }
 
@@ -229,17 +245,17 @@ class MainActivity : AppCompatActivity() {
         handleIntent(intent)
     }
 
-
     private fun handleIntent(intent: Intent) {
         intent.getStringExtra("SelectedLevel")?.let { newLevel ->
             selectedLevel = newLevel
+            loadWordsForLevel(newLevel)
         }
     }
 
     private fun saveLevelProgress(level: String, progress: Int) {
         val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
         sharedPrefs.edit().apply {
-            putInt("${KEY_COMPLETED_COUNT}_$level", progress)
+            putInt("progress_$level", progress)
             apply()
         }
         Log.d("MainActivity", "Прогресс сохранен для уровня $level: $progress")
@@ -247,8 +263,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadLevelProgress(level: String): Int {
         val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
-        return sharedPrefs.getInt("${KEY_COMPLETED_COUNT}_$level", 0)
+        return sharedPrefs.getInt("progress_$level", 0)
     }
+
 
     private fun loadWordsForLevel(level: String) {
         lifecycleScope.launch {
@@ -276,31 +293,48 @@ class MainActivity : AppCompatActivity() {
         Log.d("MainActivity", "Сохранено для уровня $selectedLevel: слово = ${currentWord?.Word}, прогресс = $completedWordsCount")
     }
 
+    private fun updateProgress() {
+        lifecycleScope.launch {
+            completedWordsCount = dbHelper.getCompletedWordsCount(selectedLevel)
+            totalWordsCount = dbHelper.getTotalWordsCount(selectedLevel)
+            updateProgressUI()
+        }
+    }
+
     private fun updateProgressUI() {
-        val progressText = "$completedWordsCount из $totalWordsCount слов"
-        binding.progressText.text = progressText
+        updateProgress()
         binding.progressBar.max = totalWordsCount
         binding.progressBar.progress = completedWordsCount
-        Log.d("MainActivity", "UI обновлен: $progressText")
+        binding.progressText.text = "$completedWordsCount из $totalWordsCount слов"
+        //Log.d("MainActivity", "Прогресс обновлен: для уровня $selectedLevel - $completedWordsCount из $totalWordsCount слов.")
     }
 
     override fun onPause() {
         super.onPause()
         saveCurrentState() // Сохраняем состояние при приостановке активности
-        Log.d("MainActivity", "Состояние сохранено")
+        Log.d("MainActivity", "Состояние сохранено: для уровня $selectedLevel - $completedWordsCount из $totalWordsCount слов.")
+    }
+
+    private fun isFirstLaunch(): Boolean {
+        val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+        return sharedPrefs.getBoolean(KEY_FIRST_LAUNCH, true)
     }
 
     override fun onResume() {
         super.onResume()
-        // Обновляем состояние, только если это необходимо
+        // Если выбран новый уровень или это первый запуск, обновляем прогресс
         if (intent.hasExtra("SelectedLevel")) {
             selectedLevel = intent.getStringExtra("SelectedLevel") ?: "A1"
             loadWordsForLevel(selectedLevel)
         } else if (!stateRestored) {
             restoreStateIfNeeded()
             stateRestored = true
+        } else {
+            // Только в этом случае вызываем updateProgress
+            updateProgress()
         }
     }
+
 
     override fun onDestroy() {
         if (::runnable.isInitialized) {

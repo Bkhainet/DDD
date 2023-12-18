@@ -20,7 +20,7 @@ class DatabaseHelper(private val context: Context) :
     override val coroutineContext = Dispatchers.IO
 
     companion object {
-        private const val DATABASE_VERSION = 1
+        private const val DATABASE_VERSION = 2
         private const val DATABASE_NAME = "WordsDatabase"
         internal const val TABLE_WORDS = "Words"
 
@@ -134,5 +134,36 @@ class DatabaseHelper(private val context: Context) :
         } else {
             Log.d("DatabaseHelper", "БД уже инициализирована")
         }
+    }
+
+    suspend fun getCompletedWordsCount(level: String): Int = withContext(Dispatchers.IO) {
+        val db = this@DatabaseHelper.readableDatabase
+        db.rawQuery("SELECT COUNT(*) FROM $TABLE_WORDS WHERE $KEY_LEVEL = ? AND $KEY_IS_USED = 1", arrayOf(level)).use { cursor ->
+            if (cursor.moveToFirst()) {
+                return@withContext cursor.getInt(0)
+            }
+            return@withContext 0
+        }
+    }
+
+    suspend fun getTotalWordsCount(level: String): Int = withContext(Dispatchers.IO) {
+        val db = this@DatabaseHelper.readableDatabase
+        db.rawQuery("SELECT COUNT(*) FROM $TABLE_WORDS WHERE $KEY_LEVEL = ?", arrayOf(level)).use { cursor ->
+            if (cursor.moveToFirst()) {
+                return@withContext cursor.getInt(0)
+            }
+            return@withContext 0
+        }
+    }
+
+    fun resetWordsUsage(level: String) {
+        val db = this.writableDatabase
+        val contentValues = ContentValues()
+        contentValues.put(KEY_IS_USED, 0)
+        db.update(TABLE_WORDS, contentValues, "$KEY_LEVEL = ?", arrayOf(level))
+    }
+
+    fun initializeDatabaseAsync() = CoroutineScope(Dispatchers.IO).launch {
+        initializeDatabase()
     }
 }
