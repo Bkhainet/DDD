@@ -19,7 +19,6 @@ class LevelSelectionActivity : AppCompatActivity() {
         binding = ActivityLevelSelectionBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Тестовые данные, замените на реальные данные из вашей базы данных
         val levels = listOf(
             Level("A1", 30, 100),
             Level("A2", 50, 100),
