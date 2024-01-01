@@ -10,7 +10,7 @@
             android:id="@+id/progressText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Прогресс: 0 из 100"
+            android:text="Прогресс: "
             android:textSize="18sp"
             android:gravity="center"
             android:layout_marginBottom="16dp" />
@@ -43,6 +43,15 @@
             android:textColor="#000000"
             android:gravity="center"
             android:layout_marginBottom="24dp" />
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Далее"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            android:visibility="gone" />
 
 
     <!-- Увеличенный RadioGroup с горизонтальной ориентацией для артиклей -->

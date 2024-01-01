@@ -39,6 +39,9 @@ class MainActivity : AppCompatActivity() {
         private const val KEY_FIRST_LAUNCH = "first_launch"
         private const val KEY_CURRENT_WORD = "current_word"
         private const val KEY_COMPLETED_COUNT = "completed_count"
+
+        fun getPrefsName(): String = PREFS_NAME
+        fun getKeyCompletedCount(): String = KEY_COMPLETED_COUNT
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -224,6 +227,15 @@ class MainActivity : AppCompatActivity() {
         return isArticleCorrect && word.Translation == selectedTranslation
     }
 
+//    private fun updateAnswerUI(isCorrect: Boolean) {
+//        binding.apply {
+//            resultTextView.text = if (isCorrect) getString(R.string.correct) else getString(R.string.incorrect, currentWord?.Artikel, currentWord?.Word, currentWord?.Translation)
+//            resultTextView.setTextColor(ContextCompat.getColor(this@MainActivity, if (isCorrect) R.color.correct_answer else R.color.wrong_answer))
+//            currentWordTextView.setTextColor(ContextCompat.getColor(this@MainActivity, if (isCorrect) R.color.correct_answer else R.color.wrong_answer))
+//        }
+//        updateProgressBar()
+//    }
+
     private fun updateAnswerUI(isCorrect: Boolean) {
         binding.apply {
             resultTextView.text = if (isCorrect) getString(R.string.correct) else getString(R.string.incorrect, currentWord?.Artikel, currentWord?.Word, currentWord?.Translation)
@@ -236,31 +248,36 @@ class MainActivity : AppCompatActivity() {
     private fun updateProgressBar() {
         binding.progressBar.progress = completedWordsCount
     }
-
+    
     private fun prepareForNextWord() {
         binding.apply {
             // Скрываем и сбрасываем элементы UI
             resultTextView.visibility = View.VISIBLE
+            currentWordTextView.visibility = View.GONE
             articleRadioGroup.visibility = View.GONE
             translationOption1.visibility = View.GONE
             translationOption2.visibility = View.GONE
             translationOption3.visibility = View.GONE
             translationOption4.visibility = View.GONE
+            buttonNext.visibility = View.VISIBLE // Показываем кнопку "Далее"
         }
 
-        handler.postDelayed({
+        // Обработчик нажатия на кнопку "Далее"
+        binding.buttonNext.setOnClickListener {
             currentWord = null // Сброс текущего слова перед выбором нового
             setRandomWord(selectedLevel)
             binding.apply {
                 // Показываем элементы UI для нового слова
+                currentWordTextView.visibility = View.VISIBLE
                 articleRadioGroup.visibility = View.VISIBLE
                 translationOption1.visibility = View.VISIBLE
                 translationOption2.visibility = View.VISIBLE
                 translationOption3.visibility = View.VISIBLE
                 translationOption4.visibility = View.VISIBLE
                 resultTextView.visibility = View.GONE
+                buttonNext.visibility = View.GONE // Скрываем кнопку "Далее"
             }
-        }, 2000) // Задержка в 3 секунды перед выбором нового слова
+        }
     }
 
     override fun onNewIntent(intent: Intent) {
@@ -288,7 +305,6 @@ class MainActivity : AppCompatActivity() {
         val sharedPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
         return sharedPrefs.getInt("progress_$level", 0)
     }
-
 
     private fun loadWordsForLevel(level: String) {
         lifecycleScope.launch {
@@ -356,7 +372,6 @@ class MainActivity : AppCompatActivity() {
             updateProgress()
         }
     }
-
 
     override fun onDestroy() {
         if (::runnable.isInitialized) {
