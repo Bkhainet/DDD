@@ -179,6 +179,21 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+//    private fun checkTranslation(clickedButton: Button, word: WordEntry) {
+//        val userTranslation = clickedButton.text.toString()
+//        val isCorrect = word.Artikel?.let { artikel ->
+//            checkAnswer(artikel, userTranslation, word)
+//        } ?: false
+//
+//        updateAnswerUI(isCorrect)
+//
+//        if (isCorrect) {
+//            //completedWordsCount++
+//            saveLevelProgress(selectedLevel, completedWordsCount)
+//            updateProgressUI()
+//        }
+//        prepareForNextWord()
+//    }
     private fun checkTranslation(clickedButton: Button, word: WordEntry) {
         val selectedArticle = when (binding.articleRadioGroup.checkedRadioButtonId) {
             R.id.derRadioButton -> "der"
@@ -198,6 +213,10 @@ class MainActivity : AppCompatActivity() {
         }
         prepareForNextWord()
     }
+
+//    private fun checkAnswer(selectedArticle: String, selectedTranslation: String, word: WordEntry): Boolean {
+//        return selectedArticle == word.Artikel && selectedTranslation == word.Translation
+//    }
 
     private fun checkAnswer(selectedArticle: String, selectedTranslation: String, word: WordEntry): Boolean {
         // Проверяем, имеется ли артикль у слова
@@ -229,33 +248,7 @@ class MainActivity : AppCompatActivity() {
     private fun updateProgressBar() {
         binding.progressBar.progress = completedWordsCount
     }
-
-//    private fun prepareForNextWord() {
-//        binding.apply {
-//            // Скрываем и сбрасываем элементы UI
-//            resultTextView.visibility = View.VISIBLE
-//            articleRadioGroup.visibility = View.GONE
-//            translationOption1.visibility = View.GONE
-//            translationOption2.visibility = View.GONE
-//            translationOption3.visibility = View.GONE
-//            translationOption4.visibility = View.GONE
-//        }
-//
-//        handler.postDelayed({
-//            currentWord = null // Сброс текущего слова перед выбором нового
-//            setRandomWord(selectedLevel)
-//            binding.apply {
-//                // Показываем элементы UI для нового слова
-//                articleRadioGroup.visibility = View.VISIBLE
-//                translationOption1.visibility = View.VISIBLE
-//                translationOption2.visibility = View.VISIBLE
-//                translationOption3.visibility = View.VISIBLE
-//                translationOption4.visibility = View.VISIBLE
-//                resultTextView.visibility = View.GONE
-//            }
-//        }, 2000) // Задержка в 3 секунды перед выбором нового слова
-//    }
-
+    
     private fun prepareForNextWord() {
         binding.apply {
             // Скрываем и сбрасываем элементы UI
