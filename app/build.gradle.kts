@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.storage.CacheResetOnProcessCanceled.enabled
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -6,16 +8,22 @@ plugins {
 
 android {
     namespace = "com.example.ddd"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.ddd"
         minSdk = 28
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-
+        multiDexEnabled = true
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding = true
+        //enabled = true
+        dataBinding = true
     }
 
     buildTypes {
@@ -37,6 +45,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

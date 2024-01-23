@@ -1,34 +1,67 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp"
-    android:background="#FAFAFA"
-    tools:context=".MainActivity">
-
-    <!-- TextView для отображения текущего слова с крупным шрифтом и высоким контрастом -->
-    <TextView
-        android:id="@+id/currentWordTextView"
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Word"
-        android:textSize="32sp"
-        android:textColor="#000000"
-        android:gravity="center"
-        android:layout_marginBottom="24dp" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <!-- TextView для отображения результата проверки -->
-    <TextView
-        android:id="@+id/resultTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="28sp"
-        android:gravity="center"
-        android:layout_marginBottom="24dp"
-        android:visibility="gone" /> <!-- Скрыт по умолчанию -->
+        <TextView
+            android:id="@+id/errorProgressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Прогресс: "
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- TextView для отображения прогресса -->
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Прогресс: "
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- ProgressBar для визуального отображения прогресса -->
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="28sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone" /> <!-- Скрыт по умолчанию -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:max="100" />
+
+        <!-- Ваши существующие элементы UI... -->
+        <TextView
+            android:id="@+id/currentWordTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Word"
+            android:textSize="32sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Далее"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            android:visibility="gone" />
+
 
     <!-- Увеличенный RadioGroup с горизонтальной ориентацией для артиклей -->
     <RadioGroup
@@ -66,8 +99,7 @@
             android:textSize="24sp"
             android:padding="16dp" />
     </RadioGroup>
-
-    <!-- Кнопки перевода с большим текстом и отступами -->
+        <!-- Кнопки перевода с большим текстом и отступами -->
     <Button
         android:id="@+id/translationOption1"
         android:layout_width="match_parent"
@@ -103,4 +135,7 @@
         android:textSize="24sp"
         android:padding="16dp" />
 
-</LinearLayout>
+
+
+    </LinearLayout>
+</layout>
